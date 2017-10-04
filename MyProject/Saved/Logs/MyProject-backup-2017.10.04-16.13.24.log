@@ -1,0 +1,948 @@
+﻿Log file open, 10/03/17 14:07:50
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-555297739) SRandInit(-555297739).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.170317
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin VictoryBPLibrary
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.03-12.07.51:403][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.03-12.07.51:403][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.03-12.07.51:414][  0]LogInit: Computer: S147382
+[2017.10.03-12.07.51:414][  0]LogInit: User: s147382
+[2017.10.03-12.07.51:414][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.03-12.07.51:414][  0]LogInit: High frequency timer resolution =2.338343 MHz
+[2017.10.03-12.07.51:415][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2017.10.03-12.07.51:415][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.03-12.07.51:415][  0]LogMemory: Process Physical Memory: 278.25 MB used, 278.25 MB peak
+[2017.10.03-12.07.51:415][  0]LogMemory: Process Virtual Memory: 283.24 MB used, 283.24 MB peak
+[2017.10.03-12.07.51:415][  0]LogMemory: Physical Memory: 5126.48 MB used,  2866.58 MB free, 7993.06 MB total
+[2017.10.03-12.07.51:415][  0]LogMemory: Virtual Memory: 663.87 MB used,  2866.58 MB free, 134217728.00 MB total
+[2017.10.03-12.07.51:573][  0]LogInit: Using OS detected language (en-US).
+[2017.10.03-12.07.51:573][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.03-12.07.51:576][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.03-12.07.52:264][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.03-12.07.52:311][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K610M' (Feature Level 11_0)
+[2017.10.03-12.07.52:311][  0]LogD3D11RHI:       958/0/3996 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.03-12.07.52:333][  0]LogD3D11RHI:    1. 'NVIDIA Quadro K610M' (Feature Level 11_0)
+[2017.10.03-12.07.52:333][  0]LogD3D11RHI:       958/0/3996 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.10.03-12.07.52:334][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.03-12.07.52:334][  0]LogD3D11RHI:       958/0/3996 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.03-12.07.52:334][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.03-12.07.52:343][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.03-12.07.52:343][  0]LogD3D11RHI:     GPU DeviceId: 0x12b9 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.03-12.07.52:343][  0]LogWindows: EnumDisplayDevices:
+[2017.10.03-12.07.52:343][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.10.03-12.07.52:343][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.03-12.07.52:343][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.03-12.07.52:344][  0]LogWindows:    3. 'NVIDIA Quadro K610M' (P:0 D:0)
+[2017.10.03-12.07.52:344][  0]LogWindows:    4. 'NVIDIA Quadro K610M' (P:0 D:0)
+[2017.10.03-12.07.52:344][  0]LogWindows:    5. 'NVIDIA Quadro K610M' (P:0 D:0)
+[2017.10.03-12.07.52:344][  0]LogWindows:    6. 'NVIDIA Quadro K610M' (P:0 D:0)
+[2017.10.03-12.07.52:344][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.03-12.07.52:344][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K610M
+[2017.10.03-12.07.52:344][  0]LogD3D11RHI:   Driver Version: 377.11 (internal:21.21.13.7711, unified:377.11)
+[2017.10.03-12.07.52:344][  0]LogD3D11RHI:      Driver Date: 3-17-2017
+[2017.10.03-12.07.52:344][  0]LogRHI: Texture pool is 670 MB (70% of 958 MB)
+[2017.10.03-12.07.52:369][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.03-12.07.52:390][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.03-12.07.52:392][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Intermediate/Shaders/WorkingDirectory/2188/).
+[2017.10.03-12.07.52:392][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s147382/AppData/Local/Temp/UnrealShaderWorkingDir/732F96D94E37ACB0E555C2B219E618A8/'.
+[2017.10.03-12.07.52:392][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.03-12.07.53:391][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.03-12.07.53:443][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.03-12.07.53:497][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.03-12.07.53:549][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.03-12.07.53:600][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.03-12.07.53:659][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.03-12.07.53:713][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.03-12.07.53:766][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.03-12.07.53:809][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.03-12.07.53:860][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.03-12.07.53:908][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.03-12.07.53:957][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.03-12.07.54:005][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.03-12.07.54:055][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.03-12.07.54:103][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.03-12.07.54:200][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.03-12.07.54:200][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.03-12.07.54:238][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.03-12.07.54:329][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.03-12.07.54:358][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.03-12.07.54:407][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.03-12.07.54:460][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.03-12.07.54:508][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.03-12.07.54:557][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.03-12.07.54:557][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.03-12.07.55:237][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.03-12.07.55:339][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/s147382/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.03-12.07.55:339][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s147382/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.03-12.07.55:340][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.03-12.07.55:340][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.03-12.07.55:340][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.03-12.07.55:340][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.03-12.07.55:363][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.03-12.07.55:375][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s147382/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.03-12.07.55:385][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.03-12.07.55:386][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.03-12.07.55:386][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.03-12.07.55:386][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.03-12.07.55:674][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2017.10.03-12.07.55:800][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.03-12.07.55:956][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.03-12.07.56:250][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.03-12.07.56:292][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.03-12.07.56:292][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.03-12.07.56:292][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.03-12.07.56:292][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.03-12.07.56:292][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.03-12.07.56:652][  0]LogNetVersion: MyProject , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3113362612)
+[2017.10.03-12.07.56:865][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 2 prioritized culture(s) in 0.049413 seconds
+[2017.10.03-12.07.56:872][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.03-12.07.56:872][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.03-12.07.56:872][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.03-12.07.56:933][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.03-12.07.59:490][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.03-12.07.59:528][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.03-12.08.00:213][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.03-12.08.00:620][  0]SourceControl: Source control is disabled
+[2017.10.03-12.08.00:620][  0]SourceControl: Source control is disabled
+[2017.10.03-12.08.00:667][  0]SourceControl: Source control is disabled
+[2017.10.03-12.08.00:712][  0]SourceControl: Source control is disabled
+[2017.10.03-12.08.01:291][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.03-12.08.01:535][  0]LogOcInput: OculusInput pre-init called
+[2017.10.03-12.08.01:795][  0]LogEngine: Initializing Engine...
+[2017.10.03-12.08.01:797][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.03-12.08.02:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.03-12.08.02:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.03-12.08.02:168][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.03-12.08.02:174][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.03-12.08.02:199][  0]LogInit: FAudioDevice initialized.
+[2017.10.03-12.08.02:482][  0]LogDerivedDataCache: Saved boot cache 0.28s 93MB C:/Users/s147382/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.03-12.08.02:488][  0]LogInit: Texture streaming: Enabled
+[2017.10.03-12.08.02:601][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.03-12.08.02:825][  0]LogInit: Transaction tracking system initialized
+[2017.10.03-12.08.03:124][  0]BlueprintLog: New page: Editor Load
+[2017.10.03-12.08.04:026][  0]LocalizationService: Localization service is disabled
+[2017.10.03-12.08.04:696][  0]LogConsoleResponse: Display: 
+[2017.10.03-12.08.04:880][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.03-12.08.04:880][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.03-12.08.04:880][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.03-12.08.04:942][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s147382/Dropbox/Personal TUe/MyProject/Content/' took 0.01s
+[2017.10.03-12.08.05:936][  0]SourceControl: Source control is disabled
+[2017.10.03-12.08.05:937][  0]Cmd: MAP LOAD FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/RollingBP/Maps/RollingBPExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-12.08.05:937][  0]LightingResults: New page: Lighting Build
+[2017.10.03-12.08.05:977][  0]MapCheck: New page: Map Check
+[2017.10.03-12.08.05:977][  0]LightingResults: New page: Lighting Build
+[2017.10.03-12.08.06:365][  0]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.10.03-12.08.06:377][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-12.08.06:402][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-12.08.06:459][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.248ms to complete.
+[2017.10.03-12.08.06:459][  0]LogFileHelpers: Loading map 'RollingBPExampleMap' took 0.523
+[2017.10.03-12.08.06:604][  0]LogCollectionManager: Loaded 0 collections in 0.001514 seconds
+[2017.10.03-12.08.06:681][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Collections/' took 0.01s
+[2017.10.03-12.08.06:681][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s147382/Dropbox/Personal TUe/MyProject/Content/Developers/s147382/Collections/' took 0.01s
+[2017.10.03-12.08.06:681][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s147382/Dropbox/Personal TUe/MyProject/Content/Collections/' took 0.01s
+[2017.10.03-12.08.06:681][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.03-12.08.06:692][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2392 classes and 503 folders.
+[2017.10.03-12.08.06:756][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.03-12.08.06:803][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.03-12.08.06:852][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.03-12.08.06:875][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.03-12.08.06:877][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.03-12.08.06:888][  0]LogSlate: Took 0.000520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.03-12.08.06:996][  0]LogRenderer: Reallocating scene render targets to support 1208x568 Format 10 NumSamples 1 (Frame:1).
+[2017.10.03-12.08.07:337][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.03-12.08.07:337][  0]LogLoad: (Engine Initialization) Total time: 17.55 seconds
+[2017.10.03-12.08.07:337][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.03-12.08.07:338][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.03-12.08.07:365][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.03-12.08.07:405][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-12.08.07:421][  1]LogAssetRegistry: Asset discovery search completed in 11.7699 seconds
+[2017.10.03-12.08.07:423][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.03-12.08.07:423][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2017.10.03-12.08.14:274][161]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-12.08.14:645][161]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.10.03-12.08.15:367][161]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-12.08.15:368][161]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.03-12.08.41:785][668]BlueprintLog: New page: Compile VideoSettings
+[2017.10.03-12.08.42:946][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/VideoSettings" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset" SILENT=true
+[2017.10.03-12.08.43:025][687]LogSavePackage: Save=73.02ms
+[2017.10.03-12.08.43:025][687]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/VideoSettingsE2ACC09340E99C2B07D83DA5FFE88474.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset'
+[2017.10.03-12.08.43:028][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset
+[2017.10.03-12.08.51:147][979]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.03-12.08.51:187][979]Cmd: MAP LOAD FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/RollingBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-12.08.51:187][979]LightingResults: New page: Lighting Build
+[2017.10.03-12.08.51:188][979]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.10.03-12.08.51:189][979]MapCheck: New page: Map Check
+[2017.10.03-12.08.51:189][979]LightingResults: New page: Lighting Build
+[2017.10.03-12.08.51:211][979]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-12.08.51:243][979]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-12.08.51:305][979]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.255ms to complete.
+[2017.10.03-12.08.51:305][979]LogFileHelpers: Loading map 'MainMenu' took 0.119
+[2017.10.03-12.08.55:505][214]LogSavePackage: Save=30.66ms
+[2017.10.03-12.08.55:505][214]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/UEDPCMainMenu46A6DCEC43F6C1264D140482662950A6.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap'
+[2017.10.03-12.08.55:506][214]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap
+[2017.10.03-12.08.55:513][214]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.10.03-12.09.48:394][657]LogSlate: Took 0.004126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.10.03-12.12.20:995][135]BlueprintLog: New page: Compile VideoSettings
+[2017.10.03-12.12.22:204][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/VideoSettings" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset" SILENT=true
+[2017.10.03-12.12.22:289][164]LogSavePackage: Save=81.52ms
+[2017.10.03-12.12.22:289][164]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/VideoSettingsFB60FF304C15CE20041E73B0F6E536FD.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset'
+[2017.10.03-12.12.22:292][164]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset
+[2017.10.03-12.12.26:273][294]LogTemp: Repeating last play command: Standalone Game
+[2017.10.03-12.12.26:439][294]LogSavePackage: Save=36.36ms
+[2017.10.03-12.12.26:439][294]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/UEDPCMainMenu9CE9904A4B3429789B1994B6F687E88E.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap'
+[2017.10.03-12.12.26:441][294]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap
+[2017.10.03-12.12.26:447][294]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.10.03-12.13.42:786][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/VideoSettings" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset" SILENT=true
+[2017.10.03-12.13.42:868][148]LogSavePackage: Save=75.72ms
+[2017.10.03-12.13.42:868][148]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/VideoSettings738933F84851F8012B56C3B178D4A49E.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset'
+[2017.10.03-12.13.42:872][148]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset
+[2017.10.03-12.13.44:246][185]BlueprintLog: New page: Compile VideoSettings
+[2017.10.03-12.13.44:967][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/VideoSettings" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset" SILENT=true
+[2017.10.03-12.13.45:052][201]LogSavePackage: Save=81.56ms
+[2017.10.03-12.13.45:052][201]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/VideoSettings6BB938AC4BEA47328E727E9975239889.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset'
+[2017.10.03-12.13.45:054][201]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset
+[2017.10.03-12.13.47:145][267]LogTemp: Repeating last play command: Standalone Game
+[2017.10.03-12.13.47:322][267]LogSavePackage: Save=34.23ms
+[2017.10.03-12.13.47:322][267]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/UEDPCMainMenu3964E4894ACDF944729AF5A5E067F11E.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap'
+[2017.10.03-12.13.47:323][267]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap
+[2017.10.03-12.13.47:330][267]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.10.03-12.23.32:076][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingBP/Maps/MainMenu' took 0.022
+[2017.10.03-12.23.32:114][707]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/VideoSettings] ([1] browsable assets)...
+[2017.10.03-12.23.32:114][707]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/VideoSettings]
+[2017.10.03-12.23.32:115][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/VideoSettings" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/UI/VideoSettings_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.03-12.23.32:324][707]LogSavePackage: Save=151.84ms
+[2017.10.03-12.23.32:324][707]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/VideoSettings_Auto1DE7BCF2246310A3B2EF6FBA06BABF5A4.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/UI/VideoSettings_Auto1.uasset'
+[2017.10.03-12.23.32:390][707]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/UI/VideoSettings_Auto1.uasset
+[2017.10.03-12.23.32:391][707]LogFileHelpers: Auto-saving content packages took 0.287
+[2017.10.03-12.26.10:155][640]BlueprintLog: New page: Compile VideoSettings
+[2017.10.03-12.26.12:719][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/VideoSettings" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset" SILENT=true
+[2017.10.03-12.26.12:805][703]LogSavePackage: Save=82.29ms
+[2017.10.03-12.26.12:805][703]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/VideoSettingsB0F545184594FAB866E7919A91CA7E0E.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset'
+[2017.10.03-12.26.12:808][703]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset
+[2017.10.03-12.26.15:095][774]LogTemp: Repeating last play command: Standalone Game
+[2017.10.03-12.26.15:296][774]LogSavePackage: Save=47.53ms
+[2017.10.03-12.26.15:296][774]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/UEDPCMainMenuAD20624B416D771912918BAE644CDF9F.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap'
+[2017.10.03-12.26.15:298][774]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap
+[2017.10.03-12.26.15:304][774]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.10.03-12.27.40:587][775]BlueprintLog: New page: Compile VideoSettings
+[2017.10.03-12.27.41:260][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/VideoSettings" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset" SILENT=true
+[2017.10.03-12.27.41:347][790]LogSavePackage: Save=81.23ms
+[2017.10.03-12.27.41:347][790]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/VideoSettings1A831B49403808CC457D029E9EBBA5BF.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset'
+[2017.10.03-12.27.41:350][790]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset
+[2017.10.03-12.27.43:264][850]LogTemp: Repeating last play command: Standalone Game
+[2017.10.03-12.27.43:426][850]LogSavePackage: Save=30.42ms
+[2017.10.03-12.27.43:427][850]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/UEDPCMainMenu2A165CF440E05FD86D25D8BFD4C7F7D4.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap'
+[2017.10.03-12.27.43:428][850]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap
+[2017.10.03-12.27.43:435][850]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.10.03-12.27.58:730][968]LogTemp: Repeating last play command: Standalone Game
+[2017.10.03-12.27.58:928][968]LogSavePackage: Save=35.09ms
+[2017.10.03-12.27.58:928][968]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/UEDPCMainMenuE6C3F0C848E611DF9E7CC4ADED5BBB8C.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap'
+[2017.10.03-12.27.58:930][968]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap
+[2017.10.03-12.27.58:937][968]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.10.03-12.28.27:213][152]LogTemp: Repeating last play command: Standalone Game
+[2017.10.03-12.28.27:399][152]LogSavePackage: Save=37.38ms
+[2017.10.03-12.28.27:400][152]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/UEDPCMainMenuCEFC3CFA4A56F900219931B7E38D6039.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap'
+[2017.10.03-12.28.27:402][152]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap
+[2017.10.03-12.28.27:410][152]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.10.03-12.34.08:009][521]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingBP/Maps/MainMenu' took 0.022
+[2017.10.03-12.34.08:011][521]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/VideoSettings] ([1] browsable assets)...
+[2017.10.03-12.34.08:011][521]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/VideoSettings]
+[2017.10.03-12.34.08:011][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/VideoSettings" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/UI/VideoSettings_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.10.03-12.34.08:105][521]LogSavePackage: Save=85.75ms
+[2017.10.03-12.34.08:105][521]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/VideoSettings_Auto2D46D8F724DB6621470547CA213008A0B.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/UI/VideoSettings_Auto2.uasset'
+[2017.10.03-12.34.08:122][521]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/UI/VideoSettings_Auto2.uasset
+[2017.10.03-12.34.08:122][521]LogFileHelpers: Auto-saving content packages took 0.111
+[2017.10.03-12.35.51:337][923]BlueprintLog: New page: Compile VideoSettings
+[2017.10.03-12.35.52:072][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/VideoSettings" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset" SILENT=true
+[2017.10.03-12.35.52:169][939]LogSavePackage: Save=93.09ms
+[2017.10.03-12.35.52:169][939]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/VideoSettings1D6AD97B4DF72D1EAF66C3B1FDE19BC9.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset'
+[2017.10.03-12.35.52:172][939]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset
+[2017.10.03-12.35.56:975][161]LogSavePackage: Save=32.97ms
+[2017.10.03-12.35.56:975][161]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/UEDPCMainMenuB3C33A14403F4E5833BB6197CD5BB7C6.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap'
+[2017.10.03-12.35.56:976][161]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap
+[2017.10.03-12.35.56:982][161]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.10.03-12.36.28:349][447]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.36.28:349][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-12.36.28:349][447]PIE: New page: PIE session: MainMenu (Oct 3, 2017, 4:36:28 PM)
+[2017.10.03-12.36.28:349][447]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_MainMenu
+[2017.10.03-12.36.28:350][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001138s)
+[2017.10.03-12.36.28:351][447]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.03-12.36.28:351][447]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2017.10.03-12.36.28:352][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/MainMenu.MainMenu to /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002357s)
+[2017.10.03-12.36.28:372][447]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.03-12.36.28:389][447]LogInit: FAudioDevice initialized.
+[2017.10.03-12.36.28:450][447]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.03-12.36.28:452][447]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.10.03-14.36.28
+[2017.10.03-12.36.28:452][447]LogWorld: Bringing up level for play took: 0.000964
+[2017.10.03-12.36.28:496][447]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.10.03-12.36.28:503][447]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_MainMenu 1.071
+[2017.10.03-12.36.28:503][447]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.36.28:510][447]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.10.03-12.36.32:435][558]Cmd: r.setRes 1920x1080w
+[2017.10.03-12.36.32:435][558]r.SetRes = "1920x1080w"
+[2017.10.03-12.36.32:514][558]LogRenderer: Reallocating scene render targets to support 1912x1048 Format 10 NumSamples 1 (Frame:113).
+[2017.10.03-12.36.36:677][626]Cmd: r.setRes 1280x1024w
+[2017.10.03-12.36.36:678][626]r.SetRes = "1280x1024w"
+[2017.10.03-12.36.42:474][759]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.36.42:502][759]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.41.30:111][252]BlueprintLog: New page: Compile VideoSettings
+[2017.10.03-12.41.30:738][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/VideoSettings" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset" SILENT=true
+[2017.10.03-12.41.30:845][264]LogSavePackage: Save=99.62ms
+[2017.10.03-12.41.30:845][264]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/VideoSettings4F8C87704B6A2B1042554999DABDBCE1.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset'
+[2017.10.03-12.41.30:848][264]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset
+[2017.10.03-12.41.33:864][346]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.03-12.41.33:882][346]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.41.33:882][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-12.41.33:883][346]PIE: New page: PIE session: MainMenu (Oct 3, 2017, 4:41:33 PM)
+[2017.10.03-12.41.33:883][346]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_MainMenu
+[2017.10.03-12.41.33:884][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000964s)
+[2017.10.03-12.41.33:884][346]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.03-12.41.33:884][346]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2017.10.03-12.41.33:885][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/MainMenu.MainMenu to /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.001967s)
+[2017.10.03-12.41.33:906][346]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.03-12.41.33:921][346]LogInit: FAudioDevice initialized.
+[2017.10.03-12.41.33:965][346]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.03-12.41.33:966][346]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.10.03-14.41.33
+[2017.10.03-12.41.33:967][346]LogWorld: Bringing up level for play took: 0.000863
+[2017.10.03-12.41.33:972][346]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_MainMenu 0.542
+[2017.10.03-12.41.33:972][346]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.41.38:064][455]Cmd: medium
+[2017.10.03-12.41.38:132][455]Command not recognized: medium
+[2017.10.03-12.41.39:129][483]Cmd: medium2
+[2017.10.03-12.41.39:129][483]Command not recognized: medium2
+[2017.10.03-12.41.40:014][507]Cmd: medium
+[2017.10.03-12.41.40:015][507]Command not recognized: medium
+[2017.10.03-12.41.40:528][521]Cmd: low
+[2017.10.03-12.41.40:528][521]Command not recognized: low
+[2017.10.03-12.41.41:155][538]Cmd: low
+[2017.10.03-12.41.41:155][538]Command not recognized: low
+[2017.10.03-12.41.42:139][565]Cmd: medium
+[2017.10.03-12.41.42:139][565]Command not recognized: medium
+[2017.10.03-12.41.42:285][569]Cmd: medium2
+[2017.10.03-12.41.42:285][569]Command not recognized: medium2
+[2017.10.03-12.41.42:538][576]Cmd: high
+[2017.10.03-12.41.42:538][576]Command not recognized: high
+[2017.10.03-12.41.43:464][601]Cmd: high
+[2017.10.03-12.41.43:465][601]Command not recognized: high
+[2017.10.03-12.41.44:566][631]Cmd: medium2
+[2017.10.03-12.41.44:566][631]Command not recognized: medium2
+[2017.10.03-12.41.44:713][635]Cmd: medium
+[2017.10.03-12.41.44:713][635]Command not recognized: medium
+[2017.10.03-12.41.44:895][640]Cmd: low
+[2017.10.03-12.41.44:895][640]Command not recognized: low
+[2017.10.03-12.41.45:114][646]Cmd: low
+[2017.10.03-12.41.45:114][646]Command not recognized: low
+[2017.10.03-12.41.45:297][651]Cmd: low
+[2017.10.03-12.41.45:297][651]Command not recognized: low
+[2017.10.03-12.41.46:026][671]Cmd: medium
+[2017.10.03-12.41.46:026][671]Command not recognized: medium
+[2017.10.03-12.41.46:366][680]Cmd: medium2
+[2017.10.03-12.41.46:366][680]Command not recognized: medium2
+[2017.10.03-12.41.46:550][685]Cmd: high
+[2017.10.03-12.41.46:550][685]Command not recognized: high
+[2017.10.03-12.41.46:698][689]Cmd: high
+[2017.10.03-12.41.46:698][689]Command not recognized: high
+[2017.10.03-12.41.47:875][720]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.41.47:905][720]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.42.23:476][573]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.03-12.42.23:493][573]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.42.23:493][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-12.42.23:494][573]PIE: New page: PIE session: MainMenu (Oct 3, 2017, 4:42:23 PM)
+[2017.10.03-12.42.23:494][573]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_MainMenu
+[2017.10.03-12.42.23:495][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000953s)
+[2017.10.03-12.42.23:495][573]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.03-12.42.23:496][573]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2017.10.03-12.42.23:496][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/MainMenu.MainMenu to /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002230s)
+[2017.10.03-12.42.23:518][573]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.03-12.42.23:534][573]LogInit: FAudioDevice initialized.
+[2017.10.03-12.42.23:580][573]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.03-12.42.23:582][573]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.10.03-14.42.23
+[2017.10.03-12.42.23:582][573]LogWorld: Bringing up level for play took: 0.000747
+[2017.10.03-12.42.23:591][573]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_MainMenu 0.16
+[2017.10.03-12.42.23:591][573]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.42.29:910][743]Cmd: medium
+[2017.10.03-12.42.29:910][743]Command not recognized: medium
+[2017.10.03-12.42.30:238][752]Cmd: low
+[2017.10.03-12.42.30:238][752]Command not recognized: low
+[2017.10.03-12.42.30:568][761]Cmd: low
+[2017.10.03-12.42.30:568][761]Command not recognized: low
+[2017.10.03-12.42.31:302][781]Cmd: medium
+[2017.10.03-12.42.31:303][781]Command not recognized: medium
+[2017.10.03-12.42.31:448][785]Cmd: medium2
+[2017.10.03-12.42.31:448][785]Command not recognized: medium2
+[2017.10.03-12.42.31:594][789]Cmd: high
+[2017.10.03-12.42.31:594][789]Command not recognized: high
+[2017.10.03-12.42.32:141][804]Cmd: high
+[2017.10.03-12.42.32:141][804]Command not recognized: high
+[2017.10.03-12.42.35:240][887]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.42.35:268][887]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.45.00:855][203]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.03-12.45.00:874][203]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.45.00:875][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-12.45.00:875][203]PIE: New page: PIE session: MainMenu (Oct 3, 2017, 4:45:00 PM)
+[2017.10.03-12.45.00:875][203]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_MainMenu
+[2017.10.03-12.45.00:876][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001067s)
+[2017.10.03-12.45.00:877][203]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.03-12.45.00:877][203]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2017.10.03-12.45.00:877][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/MainMenu.MainMenu to /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002167s)
+[2017.10.03-12.45.00:900][203]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.03-12.45.00:917][203]LogInit: FAudioDevice initialized.
+[2017.10.03-12.45.00:963][203]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.03-12.45.00:964][203]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.10.03-14.45.00
+[2017.10.03-12.45.00:964][203]LogWorld: Bringing up level for play took: 0.000931
+[2017.10.03-12.45.00:974][203]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_MainMenu -0.455
+[2017.10.03-12.45.00:974][203]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.45.04:735][304]Cmd: r.setRes 1920x1080w
+[2017.10.03-12.45.04:735][304]r.SetRes = "1920x1080w"
+[2017.10.03-12.45.09:487][380]Cmd: r.setRes 1280x1024w
+[2017.10.03-12.45.09:487][380]r.SetRes = "1280x1024w"
+[2017.10.03-12.45.18:557][589]Cmd: medium
+[2017.10.03-12.45.18:557][589]Command not recognized: medium
+[2017.10.03-12.45.18:897][597]Cmd: low
+[2017.10.03-12.45.18:898][597]Command not recognized: low
+[2017.10.03-12.45.19:035][600]Cmd: low
+[2017.10.03-12.45.19:035][600]Command not recognized: low
+[2017.10.03-12.45.19:212][604]Cmd: low
+[2017.10.03-12.45.19:212][604]Command not recognized: low
+[2017.10.03-12.45.19:426][609]Cmd: low
+[2017.10.03-12.45.19:427][609]Command not recognized: low
+[2017.10.03-12.45.19:724][616]Cmd: low
+[2017.10.03-12.45.19:725][616]Command not recognized: low
+[2017.10.03-12.45.23:946][699]Cmd: medium
+[2017.10.03-12.45.23:946][699]Command not recognized: medium
+[2017.10.03-12.45.24:199][704]Cmd: medium2
+[2017.10.03-12.45.24:199][704]Command not recognized: medium2
+[2017.10.03-12.45.24:447][709]Cmd: high
+[2017.10.03-12.45.24:448][709]Command not recognized: high
+[2017.10.03-12.45.24:650][713]Cmd: high
+[2017.10.03-12.45.24:650][713]Command not recognized: high
+[2017.10.03-12.45.24:801][716]Cmd: high
+[2017.10.03-12.45.24:801][716]Command not recognized: high
+[2017.10.03-12.45.25:545][731]Cmd: r.setRes 1920x1080w
+[2017.10.03-12.45.25:545][731]r.SetRes = "1920x1080w"
+[2017.10.03-12.45.27:981][768]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.45.28:011][768]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.48.05:424][749]BlueprintLog: New page: Compile VideoSettings
+[2017.10.03-12.48.06:162][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/VideoSettings" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset" SILENT=true
+[2017.10.03-12.48.06:272][764]LogSavePackage: Save=104.30ms
+[2017.10.03-12.48.06:272][764]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/VideoSettingsC02093464D3AD5A727070BAB410EB18D.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset'
+[2017.10.03-12.48.06:275][764]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset
+[2017.10.03-12.48.08:183][815]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.03-12.48.08:198][815]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.48.08:198][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-12.48.08:198][815]PIE: New page: PIE session: MainMenu (Oct 3, 2017, 4:48:08 PM)
+[2017.10.03-12.48.08:198][815]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_MainMenu
+[2017.10.03-12.48.08:199][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000926s)
+[2017.10.03-12.48.08:200][815]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.03-12.48.08:200][815]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2017.10.03-12.48.08:200][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/MainMenu.MainMenu to /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.001893s)
+[2017.10.03-12.48.08:223][815]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.03-12.48.08:239][815]LogInit: FAudioDevice initialized.
+[2017.10.03-12.48.08:278][815]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.03-12.48.08:280][815]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.10.03-14.48.08
+[2017.10.03-12.48.08:280][815]LogWorld: Bringing up level for play took: 0.000844
+[2017.10.03-12.48.08:285][815]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_MainMenu 0.857
+[2017.10.03-12.48.08:285][815]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.48.12:014][914]Cmd: r.setRes 1366x768w
+[2017.10.03-12.48.12:014][914]r.SetRes = "1366x768w"
+[2017.10.03-12.48.13:133][941]Cmd: r.setRes 1600x800w
+[2017.10.03-12.48.13:133][941]r.SetRes = "1600x800w"
+[2017.10.03-12.48.14:155][962]Cmd: r.setRes 1920x1080w
+[2017.10.03-12.48.14:155][962]r.SetRes = "1920x1080w"
+[2017.10.03-12.48.15:160][977]Cmd: r.setRes 1920x1080w
+[2017.10.03-12.48.15:160][977]r.SetRes = "1920x1080w"
+[2017.10.03-12.48.16:495][999]Cmd: r.setRes 1600x800w
+[2017.10.03-12.48.16:495][999]r.SetRes = "1600x800w"
+[2017.10.03-12.48.17:509][ 20]Cmd: r.setRes 1366x768w
+[2017.10.03-12.48.17:509][ 20]r.SetRes = "1366x768w"
+[2017.10.03-12.48.18:902][ 54]Cmd: r.setRes 1280x720w
+[2017.10.03-12.48.18:902][ 54]r.SetRes = "1280x720w"
+[2017.10.03-12.48.20:291][ 91]Cmd: r.setRes 1366x768w
+[2017.10.03-12.48.20:291][ 91]r.SetRes = "1366x768w"
+[2017.10.03-12.48.21:022][108]Cmd: r.setRes 1600x800w
+[2017.10.03-12.48.21:023][108]r.SetRes = "1600x800w"
+[2017.10.03-12.48.22:528][141]Cmd: r.setRes 1920x1080w
+[2017.10.03-12.48.22:529][141]r.SetRes = "1920x1080w"
+[2017.10.03-12.48.25:675][191]Cmd: r.setRes 1600x800w
+[2017.10.03-12.48.25:676][191]r.SetRes = "1600x800w"
+[2017.10.03-12.48.27:271][224]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.48.27:304][224]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.49.21:634][583]BlueprintLog: New page: Compile VideoSettings
+[2017.10.03-12.49.22:318][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/VideoSettings" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset" SILENT=true
+[2017.10.03-12.49.22:415][597]LogSavePackage: Save=91.48ms
+[2017.10.03-12.49.22:415][597]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/VideoSettingsB1790A3D4B16F3D14A23328990052808.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset'
+[2017.10.03-12.49.22:418][597]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset
+[2017.10.03-12.50.48:413][721]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/VideoSettings.VideoSettings:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_13:VideoSettings_C_7.WidgetTree_63.VerticalBox_0
+[2017.10.03-12.50.48:413][721]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/VideoSettings.VideoSettings:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_13:VideoSettings_C_6.WidgetTree_62.VerticalBox_0
+[2017.10.03-12.50.48:413][721]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/VideoSettings.VideoSettings:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_17:VideoSettings_C_2.WidgetTree_103.VerticalBox_0
+[2017.10.03-12.50.48:413][721]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/VideoSettings.VideoSettings:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.REINST_VideoSettings_C_18:WidgetTree.VerticalBox_0
+[2017.10.03-12.50.48:413][721]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/VideoSettings.VideoSettings:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.REINST_VideoSettings_C_30:WidgetTree.VerticalBox_0
+[2017.10.03-12.50.48:413][721]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/VideoSettings.VideoSettings:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:VideoSettings_C_8.WidgetTree_16.VerticalBox_0
+[2017.10.03-12.50.48:413][721]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/VideoSettings.VideoSettings:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_17:VideoSettings_C_5.WidgetTree_96.VerticalBox_0
+[2017.10.03-12.50.48:413][721]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/VideoSettings.VideoSettings:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.REINST_VideoSettings_C_50:WidgetTree.VerticalBox_0
+[2017.10.03-12.50.48:413][721]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/VideoSettings.VideoSettings:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_7:VideoSettings_C_3.WidgetTree_32.VerticalBox_0
+[2017.10.03-12.50.48:413][721]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/VideoSettings.VideoSettings:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_17:VideoSettings_C_1.WidgetTree_102.VerticalBox_0
+[2017.10.03-12.50.48:413][721]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/VideoSettings.VideoSettings:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.World_3:VideoSettings_C_6.WidgetTree_14.VerticalBox_0
+[2017.10.03-12.50.48:413][721]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/VideoSettings.VideoSettings:WidgetTree.VerticalBox_0 or VerticalBox /Engine/Transient.REINST_VideoSettings_C_63:WidgetTree.VerticalBox_0
+[2017.10.03-12.50.48:413][721]LogUObjectHash: Warning: Ambiguous search, could be VerticalBox /Game/UI/VideoSettings.VideoSettings:WidgetTree.VerticalBox_0 or VerticalBox /Game/UI/VideoSettings.VideoSettings_C:WidgetTree.VerticalBox_0
+[2017.10.03-12.50.48:421][721]LogProperty: Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/UI/VideoSettings.VideoSettings:WidgetTree.VerticalBox_0.VerticalBoxSlot_1) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.Setting).  Import failed...
+[2017.10.03-12.50.48:421][721]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_0.VerticalBoxSlot_1''
+[2017.10.03-12.51.44:694][190]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/RollingBP/Maps/MainMenu' took 0.026
+[2017.10.03-12.51.44:695][190]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Options] ([1] browsable assets)...
+[2017.10.03-12.51.44:696][190]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Options]
+[2017.10.03-12.51.44:696][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Options" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/UI/Options_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.10.03-12.51.44:789][190]LogSavePackage: Save=87.58ms
+[2017.10.03-12.51.44:789][190]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Options_Auto3C91DDB3B4215EA0E7E4C988EC7419435.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/UI/Options_Auto3.uasset'
+[2017.10.03-12.51.44:807][190]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/UI/Options_Auto3.uasset
+[2017.10.03-12.51.44:807][190]LogFileHelpers: Auto-saving content packages took 0.112
+[2017.10.03-12.51.48:788][282]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.03-12.54.19:815][457]LogEditorTransaction: Undo Move Node
+[2017.10.03-12.54.20:584][482]LogEditorTransaction: Undo Resize Node
+[2017.10.03-12.54.22:081][518]LogEditorTransaction: Undo Delete current selection
+[2017.10.03-12.54.22:848][534]LogEditorTransaction: Undo Create Reroute Node
+[2017.10.03-12.54.23:882][556]LogEditorTransaction: Undo Paste clipboard contents
+[2017.10.03-12.54.23:883][556]LogBlueprint: Warning: Loaded invalid component bound event in node /Game/UI/Options.Options:EventGraph.K2Node_ComponentBoundEvent_37.
+[2017.10.03-12.54.23:883][556]LogBlueprint: Warning: Loaded invalid component bound event in node /Game/UI/Options.Options:EventGraph.K2Node_ComponentBoundEvent_15.
+[2017.10.03-12.54.30:551][785]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableSet /Game/UI/Options.Options:EventGraph.K2Node_VariableSet_6 or K2Node_VariableSet /Game/UI/Options.Options:EventGraph.K2Node_VariableSet_6
+[2017.10.03-12.54.30:551][785]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/UI/Options.Options:EventGraph.K2Node_CallFunction_17 or K2Node_CallFunction /Game/UI/Options.Options:EventGraph.K2Node_CallFunction_17
+[2017.10.03-12.54.30:551][785]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/UI/Options.Options:EventGraph.K2Node_CallFunction_18 or K2Node_CallFunction /Game/UI/Options.Options:EventGraph.K2Node_CallFunction_18
+[2017.10.03-12.54.30:551][785]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/UI/Options.Options:EventGraph.K2Node_VariableGet_8 or K2Node_VariableGet /Game/UI/Options.Options:EventGraph.K2Node_VariableGet_8
+[2017.10.03-12.54.30:551][785]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/UI/Options.Options:EventGraph.K2Node_CallArrayFunction_3 or K2Node_CallArrayFunction /Game/UI/Options.Options:EventGraph.K2Node_CallArrayFunction_3
+[2017.10.03-12.54.30:552][785]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/UI/Options.Options:EventGraph.K2Node_CallFunction_19 or K2Node_CallFunction /Game/UI/Options.Options:EventGraph.K2Node_CallFunction_19
+[2017.10.03-12.54.30:552][785]LogUObjectHash: Warning: Ambiguous search, could be EdGraphNode_Comment /Game/UI/Options.Options:EventGraph.EdGraphNode_Comment_1 or EdGraphNode_Comment /Game/UI/Options.Options:EventGraph.EdGraphNode_Comment_1
+[2017.10.03-12.54.30:552][785]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/UI/Options.Options:EventGraph.K2Node_VariableGet_18 or K2Node_VariableGet /Game/UI/Options.Options:EventGraph.K2Node_VariableGet_18
+[2017.10.03-12.54.30:552][785]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableSet /Game/UI/Options.Options:EventGraph.K2Node_VariableSet_5 or K2Node_VariableSet /Game/UI/Options.Options:EventGraph.K2Node_VariableSet_5
+[2017.10.03-12.54.30:552][785]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/UI/Options.Options:EventGraph.K2Node_CallFunction_5 or K2Node_CallFunction /Game/UI/Options.Options:EventGraph.K2Node_CallFunction_5
+[2017.10.03-12.54.30:552][785]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallArrayFunction /Game/UI/Options.Options:EventGraph.K2Node_CallArrayFunction_0 or K2Node_CallArrayFunction /Game/UI/Options.Options:EventGraph.K2Node_CallArrayFunction_0
+[2017.10.03-12.54.30:552][785]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/UI/Options.Options:EventGraph.K2Node_CallFunction_8 or K2Node_CallFunction /Game/UI/Options.Options:EventGraph.K2Node_CallFunction_8
+[2017.10.03-12.54.30:552][785]LogUObjectHash: Warning: Ambiguous search, could be K2Node_VariableGet /Game/UI/Options.Options:EventGraph.K2Node_VariableGet_52 or K2Node_VariableGet /Game/UI/Options.Options:EventGraph.K2Node_VariableGet_52
+[2017.10.03-12.54.30:552][785]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/UI/Options.Options:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0 or K2Node_CommutativeAssociativeBinaryOperator /Game/UI/Options.Options:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0
+[2017.10.03-12.54.30:553][785]LogUObjectHash: Warning: Ambiguous search, could be EdGraphNode_Comment /Game/UI/Options.Options:EventGraph.EdGraphNode_Comment_3 or EdGraphNode_Comment /Game/UI/Options.Options:EventGraph.EdGraphNode_Comment_3
+[2017.10.03-12.54.46:535][264]BlueprintLog: New page: Compile Options
+[2017.10.03-12.54.47:187][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Options" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset" SILENT=true
+[2017.10.03-12.54.47:286][276]LogSavePackage: Save=94.73ms
+[2017.10.03-12.54.47:286][276]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/OptionsC68C91034DCAB4C836849FB9A4DF3449.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset'
+[2017.10.03-12.54.47:289][276]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset
+[2017.10.03-12.55.24:844][200]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.03-12.55.24:862][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.55.24:862][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-12.55.24:862][200]PIE: New page: PIE session: MainMenu (Oct 3, 2017, 4:55:24 PM)
+[2017.10.03-12.55.24:862][200]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_MainMenu
+[2017.10.03-12.55.24:863][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000957s)
+[2017.10.03-12.55.24:864][200]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.03-12.55.24:864][200]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2017.10.03-12.55.24:864][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/MainMenu.MainMenu to /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002046s)
+[2017.10.03-12.55.24:887][200]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.03-12.55.24:906][200]LogInit: FAudioDevice initialized.
+[2017.10.03-12.55.24:945][200]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.03-12.55.24:947][200]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.10.03-14.55.24
+[2017.10.03-12.55.24:947][200]LogWorld: Bringing up level for play took: 0.001044
+[2017.10.03-12.55.24:952][200]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_MainMenu -0.48
+[2017.10.03-12.55.24:952][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.55.39:310][587]Cmd: r.ScreenPercentage 25
+[2017.10.03-12.55.39:311][587]r.ScreenPercentage = "25"
+[2017.10.03-12.55.40:219][622]Cmd: r.ScreenPercentage 50
+[2017.10.03-12.55.40:220][622]r.ScreenPercentage = "50"
+[2017.10.03-12.55.41:417][666]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.55.41:450][666]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.58.23:930][677]BlueprintLog: New page: Compile Options
+[2017.10.03-12.58.24:813][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Options" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset" SILENT=true
+[2017.10.03-12.58.24:919][695]LogSavePackage: Save=100.45ms
+[2017.10.03-12.58.24:919][695]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Options7298FAB34B440A0254FF4F931292B79F.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset'
+[2017.10.03-12.58.24:922][695]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset
+[2017.10.03-12.58.28:737][795]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.03-12.58.28:749][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.58.28:750][795]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.03-12.58.28:761][795]LogPlayLevel: [PlayLevel] Compiling Options before play...
+[2017.10.03-12.58.28:771][795]LogPlayLevel: [PlayLevel]   Compiling OptionsPause as a dependent...
+[2017.10.03-12.58.28:777][795]LogPlayLevel: [PlayLevel]   Compiling VideoSettings as a dependent...
+[2017.10.03-12.58.28:906][795]LogPlayLevel: PlayLevel: Blueprint regeneration took 156 ms (3 blueprints)
+[2017.10.03-12.58.28:906][795]PIE: New page: PIE session: MainMenu (Oct 3, 2017, 4:58:28 PM)
+[2017.10.03-12.58.28:906][795]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_MainMenu
+[2017.10.03-12.58.28:907][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000931s)
+[2017.10.03-12.58.28:907][795]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.03-12.58.28:907][795]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2017.10.03-12.58.28:908][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/MainMenu.MainMenu to /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.001813s)
+[2017.10.03-12.58.28:926][795]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.03-12.58.28:944][795]LogInit: FAudioDevice initialized.
+[2017.10.03-12.58.28:986][795]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.03-12.58.28:987][795]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2017.10.03-14.58.28
+[2017.10.03-12.58.28:988][795]LogWorld: Bringing up level for play took: 0.001256
+[2017.10.03-12.58.28:993][795]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_MainMenu -0.438
+[2017.10.03-12.58.28:994][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.58.31:387][882]Cmd: r.setRes 1366x768w
+[2017.10.03-12.58.31:387][882]r.SetRes = "1366x768w"
+[2017.10.03-12.58.32:397][917]Cmd: r.setRes 1600x800w
+[2017.10.03-12.58.32:397][917]r.SetRes = "1600x800w"
+[2017.10.03-12.58.33:340][947]Cmd: r.setRes 1920x1080w
+[2017.10.03-12.58.33:341][947]r.SetRes = "1920x1080w"
+[2017.10.03-12.58.35:340][  2]Cmd: r.setRes 1920x1080w
+[2017.10.03-12.58.35:340][  2]r.SetRes = "1920x1080w"
+[2017.10.03-12.58.36:174][ 26]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-12.58.36:241][ 26]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-13.00.23:414][590]BlueprintLog: New page: Compile Options
+[2017.10.03-13.00.24:141][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Options" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset" SILENT=true
+[2017.10.03-13.00.24:247][605]LogSavePackage: Save=101.66ms
+[2017.10.03-13.00.24:247][605]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Options5B2769224EB058ACA3322A8E6B344451.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset'
+[2017.10.03-13.00.24:250][605]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset
+[2017.10.03-13.00.43:153][ 59]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_4' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:173][ 59]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_2' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:174][ 59]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_5' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:176][ 59]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_7' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:237][ 60]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_9' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:239][ 60]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_11' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:255][ 61]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_13' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:257][ 61]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_15' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:293][ 62]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_17' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:295][ 62]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_19' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:338][ 63]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_21' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:378][ 64]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_23' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:381][ 64]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_25' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:420][ 65]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_27' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:423][ 65]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_29' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:462][ 66]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_31' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:465][ 66]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_33' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:505][ 67]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_35' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:508][ 67]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_37' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:548][ 68]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_39' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:590][ 69]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_41' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:632][ 70]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_43' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:675][ 71]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_45' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:677][ 71]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_47' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:717][ 72]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_49' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:719][ 72]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_51' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:721][ 72]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_53' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:762][ 73]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_55' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:764][ 73]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_57' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:807][ 74]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_59' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:810][ 74]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_61' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:851][ 75]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_63' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:853][ 75]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_65' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:896][ 76]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_67' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:938][ 77]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_69' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:940][ 77]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_71' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.43:983][ 78]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_73' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.44:025][ 79]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_75' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.44:069][ 80]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_77' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.44:111][ 81]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_79' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.44:154][ 82]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_81' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.44:196][ 83]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_83' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.44:238][ 84]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_85' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.44:282][ 85]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_87' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.44:324][ 86]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_89' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.44:364][ 87]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_91' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.44:367][ 87]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_93' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.44:407][ 88]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_95' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.45:206][106]LogEditorTransaction: Undo Move Widget
+[2017.10.03-13.00.51:960][276]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Setting' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.51:961][276]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_99' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.51:962][276]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_101' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:024][301]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_144' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:026][301]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_146' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:065][302]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_148' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:068][302]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_150' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:117][303]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_152' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:119][303]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_154' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:167][304]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_156' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:209][305]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_158' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:251][306]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_160' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:294][307]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_162' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:336][308]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_164' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:378][309]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_166' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:421][310]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_168' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:462][311]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_170' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:504][312]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_172' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:545][313]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_174' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:586][314]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_176' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:628][315]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_178' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:670][316]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_180' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:711][317]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_182' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:752][318]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_184' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:794][319]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_186' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.00.53:836][320]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.HorizontalBox_188' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.34:648][325]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_1' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.34:648][325]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_1' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.34:650][325]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_3' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.34:693][326]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_5' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.34:695][326]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_7' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.34:711][327]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_9' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.34:742][328]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_11' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.34:785][329]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_13' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.34:830][330]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_15' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.34:876][331]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_17' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.34:918][332]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_19' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.34:970][333]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_21' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:009][334]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_23' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:051][335]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_25' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:093][336]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_27' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:135][337]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_29' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:177][338]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_31' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:218][339]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_33' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:262][340]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_35' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:303][341]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_37' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:344][342]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_39' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:385][343]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_41' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:386][343]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_43' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:388][343]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_45' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:440][344]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_47' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:443][344]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_49' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:481][345]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_51' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:483][345]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_53' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:522][346]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_55' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:525][346]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_57' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:566][347]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_59' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:607][348]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_61' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:649][349]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_63' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:690][350]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_65' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:733][351]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_67' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:774][352]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_69' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:816][353]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_71' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:858][354]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_73' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:900][355]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_75' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:941][356]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_77' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.35:983][357]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_79' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:025][358]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_81' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:065][359]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_83' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:068][359]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_85' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:107][360]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_87' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:109][360]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_89' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:149][361]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_91' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:151][361]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_93' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:191][362]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_95' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:193][362]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_97' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:234][363]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_99' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:275][364]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_101' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:317][365]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_103' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:358][366]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_105' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:401][367]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_107' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:455][368]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_109' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:458][368]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_111' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:498][369]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_113' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:540][370]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_115' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:582][371]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_117' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:623][372]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_119' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:665][373]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_121' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:706][374]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_123' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:749][375]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_125' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:790][376]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_127' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:832][377]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_129' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:874][378]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_131' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:915][379]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_133' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:957][380]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_135' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.36:999][381]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_137' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:341][899]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_1' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:378][899]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_141' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:380][899]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_143' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:435][900]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_145' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:452][901]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_147' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:490][902]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_149' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:531][903]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_151' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:573][904]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_153' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:614][905]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_155' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:656][906]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_157' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:698][907]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_159' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:753][908]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_161' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:796][909]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_163' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:837][910]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_165' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:879][911]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_167' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.01.55:920][912]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_169' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2017.10.03-13.02.42:364][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Options" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset" SILENT=true
+[2017.10.03-13.02.42:455][ 36]LogSavePackage: Save=87.02ms
+[2017.10.03-13.02.42:455][ 36]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/OptionsF89F13654BBFADCA9F24CCA364539F5A.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset'
+[2017.10.03-13.02.42:462][ 36]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset
+[2017.10.03-13.02.45:112][106]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.03-13.02.45:129][106]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-13.02.45:129][106]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.03-13.02.45:154][106]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2017.10.03-13.02.45:159][106]LogPlayLevel: [PlayLevel]   Compiling Options as a dependent...
+[2017.10.03-13.02.45:308][106]LogPlayLevel: [PlayLevel] Compiling Options before play...
+[2017.10.03-13.02.45:319][106]LogPlayLevel: [PlayLevel]   Compiling OptionsPause as a dependent...
+[2017.10.03-13.02.45:324][106]LogPlayLevel: [PlayLevel]   Compiling VideoSettings as a dependent...
+[2017.10.03-13.02.45:573][106]LogPlayLevel: PlayLevel: Blueprint regeneration took 445 ms (5 blueprints)
+[2017.10.03-13.02.45:574][106]PIE: New page: PIE session: MainMenu (Oct 3, 2017, 5:02:45 PM)
+[2017.10.03-13.02.45:574][106]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_MainMenu
+[2017.10.03-13.02.45:575][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000944s)
+[2017.10.03-13.02.45:575][106]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.03-13.02.45:576][106]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2017.10.03-13.02.45:576][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/MainMenu.MainMenu to /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.001901s)
+[2017.10.03-13.02.45:594][106]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.03-13.02.45:611][106]LogInit: FAudioDevice initialized.
+[2017.10.03-13.02.45:659][106]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.03-13.02.45:660][106]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2017.10.03-15.02.45
+[2017.10.03-13.02.45:660][106]LogWorld: Bringing up level for play took: 0.000829
+[2017.10.03-13.02.45:665][106]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_MainMenu 0.233
+[2017.10.03-13.02.45:665][106]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-13.02.48:768][220]Cmd: r.setRes 1366x768w
+[2017.10.03-13.02.48:769][220]r.SetRes = "1366x768w"
+[2017.10.03-13.02.49:601][248]Cmd: r.setRes 1280x720w
+[2017.10.03-13.02.49:601][248]r.SetRes = "1280x720w"
+[2017.10.03-13.02.50:541][282]Cmd: r.setRes 1280x720w
+[2017.10.03-13.02.50:542][282]r.SetRes = "1280x720w"
+[2017.10.03-13.02.51:237][309]Cmd: r.setRes 1280x720w
+[2017.10.03-13.02.51:237][309]r.SetRes = "1280x720w"
+[2017.10.03-13.02.52:100][342]Cmd: r.setRes 1366x768w
+[2017.10.03-13.02.52:112][342]r.SetRes = "1366x768w"
+[2017.10.03-13.02.52:926][369]Cmd: r.setRes 1600x800w
+[2017.10.03-13.02.52:926][369]r.SetRes = "1600x800w"
+[2017.10.03-13.02.53:781][396]Cmd: r.setRes 1920x1080w
+[2017.10.03-13.02.53:781][396]r.SetRes = "1920x1080w"
+[2017.10.03-13.02.56:657][477]Cmd: r.setRes 1600x800w
+[2017.10.03-13.02.56:657][477]r.SetRes = "1600x800w"
+[2017.10.03-13.02.57:608][507]Cmd: r.setRes 1366x768w
+[2017.10.03-13.02.57:608][507]r.SetRes = "1366x768w"
+[2017.10.03-13.02.58:418][534]Cmd: r.setRes 1280x720w
+[2017.10.03-13.02.58:418][534]r.SetRes = "1280x720w"
+[2017.10.03-13.03.12:935][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-13.03.12:964][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-13.03.58:169][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Options" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset" SILENT=true
+[2017.10.03-13.03.58:280][158]LogSavePackage: Save=102.41ms
+[2017.10.03-13.03.58:280][158]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Options79471C9B409D29872BD85F8D7820AE6D.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset'
+[2017.10.03-13.03.58:283][158]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/Options.uasset
+[2017.10.03-13.04.03:427][292]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.03-13.04.03:440][292]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-13.04.03:440][292]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.03-13.04.03:454][292]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2017.10.03-13.04.03:459][292]LogPlayLevel: [PlayLevel]   Compiling Options as a dependent...
+[2017.10.03-13.04.03:580][292]LogPlayLevel: PlayLevel: Blueprint regeneration took 140 ms (2 blueprints)
+[2017.10.03-13.04.03:580][292]PIE: New page: PIE session: MainMenu (Oct 3, 2017, 5:04:03 PM)
+[2017.10.03-13.04.03:596][292]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_MainMenu
+[2017.10.03-13.04.03:597][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000965s)
+[2017.10.03-13.04.03:597][292]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.03-13.04.03:597][292]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2017.10.03-13.04.03:597][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/MainMenu.MainMenu to /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.001866s)
+[2017.10.03-13.04.03:616][292]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.03-13.04.03:633][292]LogInit: FAudioDevice initialized.
+[2017.10.03-13.04.03:676][292]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.03-13.04.03:678][292]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2017.10.03-15.04.03
+[2017.10.03-13.04.03:678][292]LogWorld: Bringing up level for play took: 0.001442
+[2017.10.03-13.04.03:684][292]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_MainMenu 0.252
+[2017.10.03-13.04.03:684][292]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-13.04.06:098][381]Cmd: r.setRes 1366x768w
+[2017.10.03-13.04.06:099][381]r.SetRes = "1366x768w"
+[2017.10.03-13.04.06:774][404]Cmd: r.setRes 1280x720w
+[2017.10.03-13.04.06:774][404]r.SetRes = "1280x720w"
+[2017.10.03-13.04.07:355][424]Cmd: r.setRes 1280x720w
+[2017.10.03-13.04.07:355][424]r.SetRes = "1280x720w"
+[2017.10.03-13.04.08:298][460]Cmd: r.setRes 1366x768w
+[2017.10.03-13.04.08:298][460]r.SetRes = "1366x768w"
+[2017.10.03-13.04.08:709][472]Cmd: r.setRes 1600x800w
+[2017.10.03-13.04.08:710][472]r.SetRes = "1600x800w"
+[2017.10.03-13.04.09:255][489]Cmd: r.setRes 1920x1080w
+[2017.10.03-13.04.09:256][489]r.SetRes = "1920x1080w"
+[2017.10.03-13.04.12:190][569]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-13.04.12:223][569]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/RollingBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/RollingBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.03-13.04.17:750][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/VideoSettings" FILE="../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset" SILENT=true
+[2017.10.03-13.04.17:855][664]LogSavePackage: Save=98.85ms
+[2017.10.03-13.04.17:855][664]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/VideoSettings0ABDAFD1440CFFC24D16B58C79CD9BDD.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset'
+[2017.10.03-13.04.17:858][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Content/UI/VideoSettings.uasset
+[2017.10.03-13.04.17:938][664]LogSavePackage: Save=32.40ms
+[2017.10.03-13.04.17:938][664]LogSavePackage: Moving '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/UEDPCMainMenu3038F4CC4EE08117A813509F76B7228C.tmp' to '../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap'
+[2017.10.03-13.04.17:940][664]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/s147382/Dropbox/Personal TUe/MyProject/Saved/Autosaves/Game/RollingBP/Maps/UEDPCMainMenu.umap
+[2017.10.03-13.04.17:946][664]LogEditorTransaction: Undo Spawn Play From Here Start
