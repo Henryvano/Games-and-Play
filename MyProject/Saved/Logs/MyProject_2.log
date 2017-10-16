@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 ﻿Log file open, 10/12/17 17:17:03
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
@@ -522,3 +524,4 @@ LogInit: Object subsystem initialized
 [2017.10.12-15.00.45:781][  0]SourceControl: Source control is disabled
 [2017.10.12-15.00.46:205][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
 >>>>>>> a41e282fe02670c1b125849d51fdb38aca9659ba
+>>>>>>> f05b22054469012b59eb0ee31b2d6e3e7db5e003
