@@ -18,3 +18,6 @@ MyProject/Saved/Backup/RollingBPExampleMap_2017-10-05-14-13-43.umap
 MyProject/Intermediate/CachedAssetRegistry.bin
 MyProject/Saved/AutoScreenshot.png
 MyProject/Intermediate/CachedAssetRegistry.bin
+*.png
+*.bin
+*.log
