@@ -23,3 +23,6 @@ MyProject/Intermediate/CachedAssetRegistry.bin
 *.log
 *.png
 *.bin
+*.bin
+*.ini
+*.log

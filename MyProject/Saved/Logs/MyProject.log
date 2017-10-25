@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 10/25/17 15:28:01
+=======
+﻿Log file open, 10/25/17 15:18:43
+>>>>>>> 37185a5464a010a131a983008641b5b02762c0c9
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +13,15 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(1710514876) SRandInit(1710514876).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.537641
+=======
+LogInit: Display: RandInit(-1463182018) SRandInit(-1463182018).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.180641
+>>>>>>> 37185a5464a010a131a983008641b5b02762c0c9
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -114,6 +124,7 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2017.10.25-13.28.02:365][  0]LogInit: Selected Device Profile: [Windows]
 [2017.10.25-13.28.02:365][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2017.10.25-13.28.02:387][  0]LogInit: Computer: S152586
@@ -587,3 +598,574 @@ LogInit: Object subsystem initialized
 [2017.10.25-13.31.32:338][561]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2017.10.25-13.31.32:345][561]LogExit: Exiting.
 [2017.10.25-13.31.32:390][561]Log file closed, 10/25/17 15:31:32
+=======
+[2017.10.25-13.18.43:925][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.25-13.18.43:925][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.25-13.18.43:940][  0]LogInit: Computer: PC-MAX
+[2017.10.25-13.18.43:940][  0]LogInit: User: Max
+[2017.10.25-13.18.43:940][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.25-13.18.43:940][  0]LogInit: High frequency timer resolution =3.037566 MHz
+[2017.10.25-13.18.43:940][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.10.25-13.18.43:940][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.25-13.18.43:940][  0]LogMemory: Process Physical Memory: 278.94 MB used, 278.94 MB peak
+[2017.10.25-13.18.43:940][  0]LogMemory: Process Virtual Memory: 286.03 MB used, 286.03 MB peak
+[2017.10.25-13.18.43:940][  0]LogMemory: Physical Memory: 4866.94 MB used,  3306.30 MB free, 8173.24 MB total
+[2017.10.25-13.18.43:940][  0]LogMemory: Virtual Memory: 679.89 MB used,  3306.30 MB free, 134217728.00 MB total
+[2017.10.25-13.18.44:178][  0]LogInit: Using OS detected language (en-US).
+[2017.10.25-13.18.44:179][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.25-13.18.44:182][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.25-13.18.45:005][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.25-13.18.45:052][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.10.25-13.18.45:052][  0]LogD3D11RHI:       4058/0/4086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.25-13.18.45:053][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.25-13.18.45:053][  0]LogD3D11RHI:       0/0/4086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.25-13.18.45:053][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.25-13.18.45:059][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.25-13.18.45:059][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.25-13.18.45:059][  0]LogWindows: EnumDisplayDevices:
+[2017.10.25-13.18.45:059][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.10.25-13.18.45:059][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.25-13.18.45:060][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.25-13.18.45:060][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.25-13.18.45:060][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.25-13.18.45:060][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.10.25-13.18.45:060][  0]LogD3D11RHI:   Driver Version: 388.00 (internal:23.21.13.8800, unified:388.00)
+[2017.10.25-13.18.45:060][  0]LogD3D11RHI:      Driver Date: 10-12-2017
+[2017.10.25-13.18.45:060][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.25-13.18.45:088][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.25-13.18.45:099][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.25-13.18.45:149][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/Intermediate/Shaders/WorkingDirectory/7416/).
+[2017.10.25-13.18.45:149][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Max/AppData/Local/Temp/UnrealShaderWorkingDir/5899F6D34A68C53084745D86CF597C9A/'.
+[2017.10.25-13.18.45:149][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.25-13.18.46:296][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.25-13.18.46:366][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.25-13.18.46:436][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.25-13.18.46:508][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.25-13.18.46:575][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.25-13.18.46:644][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.25-13.18.46:714][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.25-13.18.46:782][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.25-13.18.46:846][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.25-13.18.46:918][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.25-13.18.46:985][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.25-13.18.47:051][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.25-13.18.47:119][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.25-13.18.47:194][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.25-13.18.47:259][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.25-13.18.47:390][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.25-13.18.47:391][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.25-13.18.47:442][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.25-13.18.47:557][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.25-13.18.47:597][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.25-13.18.47:662][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.25-13.18.47:730][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.25-13.18.47:796][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.25-13.18.47:865][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.25-13.18.47:865][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.25-13.18.48:529][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.25-13.18.48:639][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/Max/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.25-13.18.48:639][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Max/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.25-13.18.48:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.25-13.18.48:639][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.25-13.18.48:639][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.25-13.18.48:639][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.25-13.18.48:659][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.25-13.18.48:670][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Max/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.25-13.18.48:683][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.25-13.18.48:683][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.25-13.18.48:684][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.25-13.18.48:684][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.25-13.18.49:033][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2017.10.25-13.18.49:182][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.25-13.18.49:353][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.25-13.18.49:757][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.25-13.18.49:812][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.25-13.18.49:812][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.25-13.18.49:812][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.25-13.18.49:812][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.25-13.18.49:812][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.25-13.18.50:231][  0]LogNetVersion: MyProject , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3113362612)
+[2017.10.25-13.18.50:497][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 2 prioritized culture(s) in 0.058531 seconds
+[2017.10.25-13.18.50:504][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.25-13.18.50:504][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.25-13.18.50:504][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.25-13.18.50:590][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.25-13.18.53:753][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.25-13.18.53:801][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.25-13.18.54:667][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.25-13.18.55:171][  0]SourceControl: Source control is disabled
+[2017.10.25-13.18.55:171][  0]SourceControl: Source control is disabled
+[2017.10.25-13.18.55:232][  0]SourceControl: Source control is disabled
+[2017.10.25-13.18.55:292][  0]SourceControl: Source control is disabled
+[2017.10.25-13.18.56:034][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.25-13.18.56:343][  0]LogOcInput: OculusInput pre-init called
+[2017.10.25-13.18.56:664][  0]LogEngine: Initializing Engine...
+[2017.10.25-13.18.56:666][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.25-13.18.56:926][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.25-13.18.56:926][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.25-13.18.57:093][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.25-13.18.57:108][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.18.57:121][  0]LogInit: FAudioDevice initialized.
+[2017.10.25-13.18.57:211][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/Max/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.25-13.18.57:233][  0]LogInit: Texture streaming: Enabled
+[2017.10.25-13.18.57:385][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.25-13.18.57:694][  0]LogInit: Transaction tracking system initialized
+[2017.10.25-13.18.58:119][  0]BlueprintLog: New page: Editor Load
+[2017.10.25-13.18.59:348][  0]LocalizationService: Localization service is disabled
+[2017.10.25-13.19.00:267][  0]LogConsoleResponse: Display: 
+[2017.10.25-13.19.00:471][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.25-13.19.00:471][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.25-13.19.00:471][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.25-13.19.01:137][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/' took 0.02s
+[2017.10.25-13.19.01:842][  0]SourceControl: Source control is disabled
+[2017.10.25-13.19.01:843][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/RollingBP/Maps/RollingBPExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.25-13.19.01:843][  0]LightingResults: New page: Lighting Build
+[2017.10.25-13.19.01:898][  0]MapCheck: New page: Map Check
+[2017.10.25-13.19.01:898][  0]LightingResults: New page: Lighting Build
+[2017.10.25-13.19.02:099][  0]LogLinker: Warning: Can't find file '/Game/Player_Assets/Character/HeroTPP_Skeleton'
+[2017.10.25-13.19.02:099][  0]LogLinker: Warning: Can't find file for asset '/Game/Player_Assets/Character/HeroTPP_Skeleton' while loading ../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/vegetation_pack/Content/Player_Assets/Animations/Idle.uasset.
+[2017.10.25-13.19.02:099][  0]LoadErrors: Error: /Game/vegetation_pack/Content/Player_Assets/Animations/Idle : Can't find file for asset. /Game/Player_Assets/Character/HeroTPP_Skeleton
+[2017.10.25-13.19.02:100][  0]LogLinker: Warning: Can't find file '/Game/Player_Assets/Character/HeroTPP_Skeleton'
+[2017.10.25-13.19.02:100][  0]LogLinker: Warning: Can't find file for asset '/Game/Player_Assets/Character/HeroTPP_Skeleton' while loading ../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/vegetation_pack/Content/Player_Assets/Animations/Idle.uasset.
+[2017.10.25-13.19.02:100][  0]LoadErrors: Error: /Game/vegetation_pack/Content/Player_Assets/Animations/Idle : Can't find file for asset. /Game/Player_Assets/Character/HeroTPP_Skeleton
+[2017.10.25-13.19.02:775][  0]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.10.25-13.19.02:776][  0]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.10.25-13.19.02:776][  0]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.10.25-13.19.02:900][  0]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] [0020.88] Compile of SquirrelBlueprints3 successful, but with 3 Warning(s) [in 304 ms] (/Game/Squirrel/BluePrints/SquirrelBlueprints3.SquirrelBlueprints3)
+[2017.10.25-13.19.03:100][  0]LogLinker: Warning: Can't find file '/Game/Player_Assets/Character/HeroTPP_Skeleton'
+[2017.10.25-13.19.03:100][  0]LoadErrors: Failed to load /Game/Player_Assets/Character/HeroTPP_Skeleton.HeroTPP_Skeleton Referenced by Idle
+[2017.10.25-13.19.03:100][  0]LogLinker: Warning: Can't find file for asset '/Game/Player_Assets/Character/HeroTPP_Skeleton' while loading NULL.
+[2017.10.25-13.19.03:100][  0]LoadErrors: Failed to load /Game/Player_Assets/Character/HeroTPP_Skeleton.HeroTPP_Skeleton Referenced by Idle
+[2017.10.25-13.19.03:772][  0]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.10.25-13.19.03:801][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.25-13.19.03:841][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.25-13.19.03:921][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.623ms to complete.
+[2017.10.25-13.19.03:921][  0]LogFileHelpers: Loading map 'RollingBPExampleMap' took 2.078
+[2017.10.25-13.19.04:069][  0]LogCollectionManager: Loaded 0 collections in 0.001674 seconds
+[2017.10.25-13.19.04:159][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Documents/GitHub/Games-and-Play/MyProject/Saved/Collections/' took 0.01s
+[2017.10.25-13.19.04:159][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/Developers/Max/Collections/' took 0.01s
+[2017.10.25-13.19.04:159][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/Collections/' took 0.01s
+[2017.10.25-13.19.04:159][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.25-13.19.04:168][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2392 classes and 503 folders.
+[2017.10.25-13.19.04:253][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.25-13.19.04:297][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.10.25-13.19.04:354][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.25-13.19.04:376][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.25-13.19.04:378][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.25-13.19.04:383][  0]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.25-13.19.04:510][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.10.25-13.19.04:618][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-13.19.04:790][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.25-13.19.04:790][  0]LogLoad: (Engine Initialization) Total time: 22.77 seconds
+[2017.10.25-13.19.04:790][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.25-13.19.04:791][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.25-13.19.05:167][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.25-13.19.05:493][  1]LogAssetRegistry: Asset discovery search completed in 16.4813 seconds
+[2017.10.25-13.19.05:496][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.25-13.19.05:496][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2017.10.25-13.19.10:797][ 17]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/' took 5.65s
+[2017.10.25-13.19.27:419][359]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-13.19.27:905][359]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 512X512)
+[2017.10.25-13.19.27:905][359]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 512X512)
+[2017.10.25-13.19.27:908][359]LogMaterial: Missing cached shader map for material Green_8, compiling. 
+[2017.10.25-13.19.27:985][359]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 512X512)
+[2017.10.25-13.19.27:985][359]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 512X512)
+[2017.10.25-13.19.27:985][359]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 512X512)
+[2017.10.25-13.19.27:986][359]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 512X512)
+[2017.10.25-13.19.27:986][359]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 512X512)
+[2017.10.25-13.19.27:986][359]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 512X512)
+[2017.10.25-13.19.27:986][359]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 512X512)
+[2017.10.25-13.19.27:986][359]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 512X512)
+[2017.10.25-13.19.27:986][359]LogMaterial: Missing cached shader map for material Purple_2, compiling. 
+[2017.10.25-13.19.28:005][359]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 512X512)
+[2017.10.25-13.19.28:005][359]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 512X512)
+[2017.10.25-13.19.28:005][359]LogMaterial: Missing cached shader map for material Green_7, compiling. 
+[2017.10.25-13.19.28:022][359]LogStaticMesh: Building static mesh Plant_6...
+[2017.10.25-13.19.28:038][359]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 512X512)
+[2017.10.25-13.19.28:039][359]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 512X512)
+[2017.10.25-13.19.28:039][359]LogStaticMesh: Built static mesh [0.02s] /Game/Squirrel/Maps/MaisMap/Assets/Plant_6.Plant_6
+[2017.10.25-13.19.28:044][359]LogMaterial: Missing cached shader map for material Brown_8, compiling. 
+[2017.10.25-13.19.28:099][359]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 512X512)
+[2017.10.25-13.19.28:099][359]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 512X512)
+[2017.10.25-13.19.28:099][359]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2017.10.25-13.19.28:099][359]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 64X64)
+[2017.10.25-13.19.28:099][359]LogStaticMesh: Building static mesh Tree_3_Tree_3...
+[2017.10.25-13.19.28:170][359]LogStaticMesh: Built static mesh [0.07s] /Game/Squirrel/Maps/MaisMap/Assets/Tree_3_Tree_3.Tree_3_Tree_3
+[2017.10.25-13.19.28:175][359]LogStaticMesh: Building static mesh Tree_2_Tree_2...
+[2017.10.25-13.19.28:242][359]LogStaticMesh: Built static mesh [0.07s] /Game/Squirrel/Maps/MaisMap/Assets/Tree_2_Tree_2.Tree_2_Tree_2
+[2017.10.25-13.19.28:248][359]LogStaticMesh: Building static mesh OakTree3...
+[2017.10.25-13.19.28:254][359]LogStaticMesh: Built static mesh [0.01s] /Game/Squirrel/Maps/MaisMap/Assets/OakTree3.OakTree3
+[2017.10.25-13.19.28:256][359]LogStaticMesh: Building static mesh OakTree2...
+[2017.10.25-13.19.28:260][359]LogStaticMesh: Built static mesh [0.00s] /Game/Squirrel/Maps/MaisMap/Assets/OakTree2.OakTree2
+[2017.10.25-13.19.28:264][359]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.10.25-13.19.28:282][359]LogMaterial: Missing cached shader map for material Gray_2, compiling. 
+[2017.10.25-13.19.28:299][359]LogStaticMesh: Building static mesh Rock_2...
+[2017.10.25-13.19.28:304][359]LogStaticMesh: Built static mesh [0.01s] /Game/Squirrel/Maps/MaisMap/Assets/Rock_2.Rock_2
+[2017.10.25-13.19.28:305][359]LogStaticMesh: Building static mesh Rock_1...
+[2017.10.25-13.19.28:310][359]LogStaticMesh: Built static mesh [0.01s] /Game/Squirrel/Maps/MaisMap/Assets/Rock_1.Rock_1
+[2017.10.25-13.19.28:313][359]LogMaterial: Missing cached shader map for material Pink_1, compiling. 
+[2017.10.25-13.19.28:330][359]LogStaticMesh: Building static mesh Plant_2...
+[2017.10.25-13.19.28:377][359]LogStaticMesh: Built static mesh [0.05s] /Game/Squirrel/Maps/MaisMap/Assets/Plant_2.Plant_2
+[2017.10.25-13.19.28:379][359]LogStaticMesh: Building static mesh Plant_1...
+[2017.10.25-13.19.28:392][359]LogStaticMesh: Built static mesh [0.01s] /Game/Squirrel/Maps/MaisMap/Assets/Plant_1.Plant_1
+[2017.10.25-13.19.28:395][359]LogMaterial: Missing cached shader map for material Green_2, compiling. 
+[2017.10.25-13.19.28:411][359]LogStaticMesh: Building static mesh Grass_2...
+[2017.10.25-13.19.28:443][359]LogStaticMesh: Built static mesh [0.03s] /Game/Squirrel/Maps/MaisMap/Assets/Grass_2.Grass_2
+[2017.10.25-13.19.28:497][359]LogMaterial: Missing cached shader map for material Green_4, compiling. 
+[2017.10.25-13.19.28:516][359]LogMaterial: Missing cached shader map for material Green_4, compiling. 
+[2017.10.25-13.19.28:568][359]LogStaticMesh: Building static mesh Bush_3...
+[2017.10.25-13.19.28:581][359]LogStaticMesh: Built static mesh [0.01s] /Game/Squirrel/Maps/MaisMap/Assets/Bush_3.Bush_3
+[2017.10.25-13.19.28:584][359]LogStaticMesh: Building static mesh DeadSpruce1...
+[2017.10.25-13.19.28:589][359]LogStaticMesh: Built static mesh [0.01s] /Game/Squirrel/Maps/MaisMap/Assets/DeadSpruce1.DeadSpruce1
+[2017.10.25-13.19.28:591][359]LogStaticMesh: Building static mesh DeadSpruce2...
+[2017.10.25-13.19.28:594][359]LogStaticMesh: Built static mesh [0.00s] /Game/Squirrel/Maps/MaisMap/Assets/DeadSpruce2.DeadSpruce2
+[2017.10.25-13.19.28:595][359]LogStaticMesh: Building static mesh DeadSpruce3...
+[2017.10.25-13.19.28:599][359]LogStaticMesh: Built static mesh [0.00s] /Game/Squirrel/Maps/MaisMap/Assets/DeadSpruce3.DeadSpruce3
+[2017.10.25-13.19.28:601][359]LogStaticMesh: Building static mesh Grass_1...
+[2017.10.25-13.19.28:608][359]LogStaticMesh: Built static mesh [0.01s] /Game/Squirrel/Maps/MaisMap/Assets/Grass_1.Grass_1
+[2017.10.25-13.19.28:609][359]LogStaticMesh: Building static mesh Log_3...
+[2017.10.25-13.19.28:617][359]LogStaticMesh: Built static mesh [0.01s] /Game/Squirrel/Maps/MaisMap/Assets/Log_3.Log_3
+[2017.10.25-13.19.28:619][359]LogStaticMesh: Building static mesh Mounting_1...
+[2017.10.25-13.19.28:709][359]LogStaticMesh: Built static mesh [0.09s] /Game/Squirrel/Maps/MaisMap/Assets/Mounting_1.Mounting_1
+[2017.10.25-13.19.28:718][359]LogStaticMesh: Building static mesh Mounting_3...
+[2017.10.25-13.19.28:766][359]LogStaticMesh: Built static mesh [0.05s] /Game/Squirrel/Maps/MaisMap/Assets/Mounting_3.Mounting_3
+[2017.10.25-13.19.28:769][359]LogStaticMesh: Building static mesh Mounting_2...
+[2017.10.25-13.19.28:881][359]LogStaticMesh: Built static mesh [0.11s] /Game/Squirrel/Maps/MaisMap/Assets/Mounting_2.Mounting_2
+[2017.10.25-13.19.28:882][359]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.25-13.19.28:895][359]LogStaticMesh: Building static mesh OakTree1...
+[2017.10.25-13.19.28:899][359]LogStaticMesh: Built static mesh [0.00s] /Game/Squirrel/Maps/MaisMap/Assets/OakTree1.OakTree1
+[2017.10.25-13.19.28:901][359]LogStaticMesh: Building static mesh Plant_3...
+[2017.10.25-13.19.28:924][359]LogStaticMesh: Built static mesh [0.02s] /Game/Squirrel/Maps/MaisMap/Assets/Plant_3.Plant_3
+[2017.10.25-13.19.28:926][359]LogStaticMesh: Building static mesh Plant_4...
+[2017.10.25-13.19.28:934][359]LogStaticMesh: Built static mesh [0.01s] /Game/Squirrel/Maps/MaisMap/Assets/Plant_4.Plant_4
+[2017.10.25-13.19.28:935][359]LogStaticMesh: Building static mesh Plant_5...
+[2017.10.25-13.19.28:969][359]LogStaticMesh: Built static mesh [0.03s] /Game/Squirrel/Maps/MaisMap/Assets/Plant_5.Plant_5
+[2017.10.25-13.19.28:970][359]LogStaticMesh: Building static mesh Rock_3...
+[2017.10.25-13.19.28:980][359]LogStaticMesh: Built static mesh [0.01s] /Game/Squirrel/Maps/MaisMap/Assets/Rock_3.Rock_3
+[2017.10.25-13.19.28:984][359]LogStaticMesh: Building static mesh SpruceTree3...
+[2017.10.25-13.19.28:986][359]LogStaticMesh: Built static mesh [0.00s] /Game/Squirrel/Maps/MaisMap/Assets/SpruceTree3.SpruceTree3
+[2017.10.25-13.19.28:987][359]LogStaticMesh: Building static mesh SpruceTree1...
+[2017.10.25-13.19.28:989][359]LogStaticMesh: Built static mesh [0.00s] /Game/Squirrel/Maps/MaisMap/Assets/SpruceTree1.SpruceTree1
+[2017.10.25-13.19.28:990][359]LogStaticMesh: Building static mesh SpruceTree2...
+[2017.10.25-13.19.28:991][359]LogStaticMesh: Built static mesh [0.00s] /Game/Squirrel/Maps/MaisMap/Assets/SpruceTree2.SpruceTree2
+[2017.10.25-13.19.28:992][359]LogStaticMesh: Building static mesh Tree_1_Tree_1...
+[2017.10.25-13.19.29:004][359]LogStaticMesh: Built static mesh [0.01s] /Game/Squirrel/Maps/MaisMap/Assets/Tree_1_Tree_1.Tree_1_Tree_1
+[2017.10.25-13.19.29:008][359]LogMaterial: Missing cached shader map for material Brown_15, compiling. 
+[2017.10.25-13.19.29:026][359]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.10.25-13.19.29:044][359]LogMaterial: Missing cached shader map for material DeadSpruceTreeTrunk, compiling. 
+[2017.10.25-13.19.29:062][359]LogMaterial: Missing cached shader map for material Gray_3, compiling. 
+[2017.10.25-13.19.29:081][359]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.10.25-13.19.29:101][359]LogMaterial: Missing cached shader map for material Yellow_2, compiling. 
+[2017.10.25-13.19.29:121][359]LogMaterial: Missing cached shader map for material Green_6, compiling. 
+[2017.10.25-13.19.29:141][359]LogMaterial: Missing cached shader map for material Brown_2, compiling. 
+[2017.10.25-13.19.29:160][359]LogMaterial: Missing cached shader map for material Purple_1, compiling. 
+[2017.10.25-13.19.29:179][359]LogMaterial: Missing cached shader map for material Green_5, compiling. 
+[2017.10.25-13.19.29:200][359]LogMaterial: Missing cached shader map for material Brown_9, compiling. 
+[2017.10.25-13.19.29:219][359]LogMaterial: Missing cached shader map for material Brown_3, compiling. 
+[2017.10.25-13.19.29:240][359]LogMaterial: Missing cached shader map for material Green_1, compiling. 
+[2017.10.25-13.19.29:259][359]LogMaterial: Missing cached shader map for material Green_3, compiling. 
+[2017.10.25-13.19.29:279][359]LogMaterial: Missing cached shader map for material Brown_7, compiling. 
+[2017.10.25-13.19.29:298][359]LogMaterial: Missing cached shader map for material Brown_4, compiling. 
+[2017.10.25-13.19.29:317][359]LogMaterial: Missing cached shader map for material SpruceTreeTrunk, compiling. 
+[2017.10.25-13.19.29:337][359]LogMaterial: Missing cached shader map for material Brown_14, compiling. 
+[2017.10.25-13.19.29:356][359]LogMaterial: Missing cached shader map for material Orange_3, compiling. 
+[2017.10.25-13.19.29:374][359]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-13.19.29:635][359]Cmd: MAP LOAD FILE="../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/Maps/MaisMap/PolyForest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.25-13.19.29:635][359]LightingResults: New page: Lighting Build
+[2017.10.25-13.19.29:636][359]LoadErrors: New page: Loading map: PolyForest.umap
+[2017.10.25-13.19.29:638][359]MapCheck: New page: Map Check
+[2017.10.25-13.19.29:638][359]LightingResults: New page: Lighting Build
+[2017.10.25-13.19.31:972][359]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.25-13.19.32:624][359]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.25-13.19.32:761][359]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 136.611ms to complete.
+[2017.10.25-13.19.32:775][359]LogFileHelpers: Loading map 'PolyForest' took 3.141
+[2017.10.25-13.20.27:151][390]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-13.20.27:370][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-13.20.27:371][390]PIE: New page: PIE session: PolyForest (Oct 25, 2017, 5:20:27 PM)
+[2017.10.25-13.20.27:371][390]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-13.20.27:542][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.170637s)
+[2017.10.25-13.20.27:542][390]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-13.20.27:543][390]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2017.10.25-13.20.27:543][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.172075s)
+[2017.10.25-13.20.27:567][390]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.20.27:575][390]LogInit: FAudioDevice initialized.
+[2017.10.25-13.20.27:630][390]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-13.20.27:682][390]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-15.20.27
+[2017.10.25-13.20.27:685][390]LogWorld: Bringing up level for play took: 0.053113
+[2017.10.25-13.20.27:745][390]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.10.25-13.20.27:745][390]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-13.20.27:745][390]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-13.20.27:745][390]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-13.20.27:761][390]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-13.20.27:765][390]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest -0.109
+[2017.10.25-13.20.27:807][390]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.10.25-13.20.30:291][656]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.20.30:957][730]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.20.31:622][805]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.20.32:278][879]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.20.32:943][953]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.20.33:598][ 25]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.20.34:259][ 98]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.20.34:551][130]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-13.20.35:107][190]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.20.36:715][362]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.20.36:936][387]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-13.20.37:708][474]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.20.38:994][617]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.20.39:653][690]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.20.46:705][476]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.20.47:751][592]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-13.20.47:757][592]LogBlueprintUserMessages: [SquirrelBlueprints3_C_0] Saved cp
+[2017.10.25-13.20.49:807][829]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.25-13.20.49:807][829]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.25-13.20.49:807][829]LogNet: Browse: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.10.25-13.20.49:807][829]LogLoad: LoadMap: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.10.25-13.20.49:845][829]Cmd: MEM
+[2017.10.25-13.20.49:858][829]LogMemory: Platform Memory Stats for Windows
+[2017.10.25-13.20.49:858][829]LogMemory: Process Physical Memory: 1543.44 MB used, 1580.52 MB peak
+[2017.10.25-13.20.49:858][829]LogMemory: Process Virtual Memory: 2298.34 MB used, 2445.98 MB peak
+[2017.10.25-13.20.49:858][829]LogMemory: Physical Memory: 4795.30 MB used,  3377.94 MB free, 8173.24 MB total
+[2017.10.25-13.20.49:858][829]LogMemory: Virtual Memory: 3252.13 MB used,  3377.94 MB free, 134217728.00 MB total
+[2017.10.25-13.20.49:858][829]LogMemory: 
+[2017.10.25-13.20.49:858][829]Allocator Stats for TBB: (not implemented)
+[2017.10.25-13.20.51:355][829]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.10.25-13.20.51:355][829]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.25-13.20.51:371][829]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.10.25-15.20.51
+[2017.10.25-13.20.51:371][829]LogWorld: Bringing up level for play took: 0.015192
+[2017.10.25-13.20.51:374][829]LogLoad: Took 1.567124 seconds to LoadMap(/Game/RollingBP/Maps/RollingBPExampleMap)
+[2017.10.25-13.21.19:676][139]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-13.21.19:707][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-13.21.19:707][139]PIE: New page: PIE session: PolyForest (Oct 25, 2017, 5:21:19 PM)
+[2017.10.25-13.21.19:707][139]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-13.21.19:880][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.172970s)
+[2017.10.25-13.21.19:881][139]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-13.21.19:881][139]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2017.10.25-13.21.19:881][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.174222s)
+[2017.10.25-13.21.19:905][139]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.21.19:914][139]LogInit: FAudioDevice initialized.
+[2017.10.25-13.21.19:958][139]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-13.21.20:010][139]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-15.21.20
+[2017.10.25-13.21.20:011][139]LogWorld: Bringing up level for play took: 0.051464
+[2017.10.25-13.21.20:012][139]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-13.21.20:012][139]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-13.21.20:012][139]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-13.21.20:015][139]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-13.21.20:019][139]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest 0.145
+[2017.10.25-13.21.21:010][232]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.21:675][305]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.22:335][377]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.22:992][450]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.23:652][524]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.24:320][600]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.24:976][675]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.26:810][881]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.27:459][956]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-13.21.27:468][957]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.30:393][286]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.33:602][652]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.34:259][724]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.35:236][835]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.35:892][909]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.39:750][357]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.21.56:954][365]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.21:108][385]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-13.22.21:139][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-13.22.21:139][385]PIE: New page: PIE session: PolyForest (Oct 25, 2017, 5:22:21 PM)
+[2017.10.25-13.22.21:139][385]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-13.22.21:311][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.171675s)
+[2017.10.25-13.22.21:312][385]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-13.22.21:312][385]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2017.10.25-13.22.21:312][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.173027s)
+[2017.10.25-13.22.21:341][385]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.22.21:349][385]LogInit: FAudioDevice initialized.
+[2017.10.25-13.22.21:390][385]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-13.22.21:442][385]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-15.22.21
+[2017.10.25-13.22.21:443][385]LogWorld: Bringing up level for play took: 0.052197
+[2017.10.25-13.22.21:444][385]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-13.22.21:444][385]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-13.22.21:444][385]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-13.22.21:447][385]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-13.22.21:451][385]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest -0.423
+[2017.10.25-13.22.22:732][504]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.23:393][576]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.24:056][649]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.24:714][723]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.27:499][ 33]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.31:621][492]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.32:571][597]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.39:062][331]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.40:189][457]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.43:097][785]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.43:759][862]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.44:420][936]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.45:074][  9]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.46:665][188]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.47:326][263]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.49:636][524]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-13.22.50:757][651]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.52:567][857]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-13.22.55:086][141]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.59:112][598]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.22.59:881][686]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.23.00:728][781]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.23.02:003][925]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.23.18:866][532]LogEditorViewport: Clicking on Actor (LMB): Nut_C (Nut12)
+[2017.10.25-13.27.44:749][951]LogLinker: Warning: Can't find file '/Game/Player_Assets/Character/HeroTPP_Skeleton'
+[2017.10.25-13.27.44:750][951]LogLinker: Warning: Can't find file for asset '/Game/Player_Assets/Character/HeroTPP_Skeleton' while loading ../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/vegetation_pack/Content/Player_Assets/Animations/Idle.uasset.
+[2017.10.25-13.27.44:750][951]LoadErrors: Error: /Game/vegetation_pack/Content/Player_Assets/Animations/Idle : Can't find file for asset. /Game/Player_Assets/Character/HeroTPP_Skeleton
+[2017.10.25-13.27.44:750][951]LogLinker: Warning: Can't find file '/Game/Player_Assets/Character/HeroTPP_Skeleton'
+[2017.10.25-13.27.44:750][951]LogLinker: Warning: Can't find file for asset '/Game/Player_Assets/Character/HeroTPP_Skeleton' while loading ../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/vegetation_pack/Content/Player_Assets/Animations/Idle.uasset.
+[2017.10.25-13.27.45:386][951]LogAIModule: Creating AISystem for world Forest
+[2017.10.25-13.27.45:408][951]Cmd: MAP LOAD FILE="../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/Maps/Forest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.25-13.27.45:409][951]LightingResults: New page: Lighting Build
+[2017.10.25-13.27.45:409][951]LoadErrors: New page: Loading map: Forest.umap
+[2017.10.25-13.27.45:421][951]MapCheck: New page: Map Check
+[2017.10.25-13.27.45:421][951]LightingResults: New page: Lighting Build
+[2017.10.25-13.27.45:472][951]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.25-13.27.45:541][951]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.25-13.27.45:641][951]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 100.345ms to complete.
+[2017.10.25-13.27.45:642][951]LogFileHelpers: Loading map 'Forest' took 0.235
+[2017.10.25-13.27.57:560][325]LogEditorViewport: Clicking on Actor (LMB): CheckpointLamp_C (CheckpointLamp)
+[2017.10.25-13.28.00:214][632]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-13.28.00:244][632]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.28.00:245][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-13.28.00:245][632]PIE: New page: PIE session: Forest (Oct 25, 2017, 5:28:00 PM)
+[2017.10.25-13.28.00:245][632]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/UEDPIE_0_Forest
+[2017.10.25-13.28.00:254][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009113s)
+[2017.10.25-13.28.00:255][632]LogAIModule: Creating AISystem for world Forest
+[2017.10.25-13.28.00:255][632]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2017.10.25-13.28.00:255][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/Forest.Forest to /Game/Squirrel/Maps/UEDPIE_0_Forest.Forest (0.010166s)
+[2017.10.25-13.28.00:277][632]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.28.00:286][632]LogInit: FAudioDevice initialized.
+[2017.10.25-13.28.00:328][632]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-13.28.00:331][632]LogWorld: Bringing World /Game/Squirrel/Maps/UEDPIE_0_Forest.Forest up for play (max tick rate 0) at 2017.10.25-15.28.00
+[2017.10.25-13.28.00:332][632]LogWorld: Bringing up level for play took: 0.003053
+[2017.10.25-13.28.00:333][632]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-13.28.00:333][632]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-13.28.00:333][632]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-13.28.00:335][632]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-13.28.00:340][632]PIE: Play in editor start time for /Game/Squirrel/Maps/UEDPIE_0_Forest 0.466
+[2017.10.25-13.28.00:340][632]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.28.01:666][772]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.28.02:325][846]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.28.08:338][529]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.28.10:573][782]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.28.11:525][886]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.28.15:846][375]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.28.15:917][375]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.28.19:161][634]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-13.28.19:192][634]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.28.19:192][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-13.28.19:192][634]PIE: New page: PIE session: Forest (Oct 25, 2017, 5:28:19 PM)
+[2017.10.25-13.28.19:192][634]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/UEDPIE_0_Forest
+[2017.10.25-13.28.19:199][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007160s)
+[2017.10.25-13.28.19:200][634]LogAIModule: Creating AISystem for world Forest
+[2017.10.25-13.28.19:200][634]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2017.10.25-13.28.19:200][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/Forest.Forest to /Game/Squirrel/Maps/UEDPIE_0_Forest.Forest (0.008276s)
+[2017.10.25-13.28.19:222][634]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.28.19:230][634]LogInit: FAudioDevice initialized.
+[2017.10.25-13.28.19:269][634]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-13.28.19:273][634]LogWorld: Bringing World /Game/Squirrel/Maps/UEDPIE_0_Forest.Forest up for play (max tick rate 0) at 2017.10.25-15.28.19
+[2017.10.25-13.28.19:274][634]LogWorld: Bringing up level for play took: 0.003227
+[2017.10.25-13.28.19:274][634]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-13.28.19:275][634]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-13.28.19:275][634]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-13.28.19:277][634]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-13.28.19:281][634]PIE: Play in editor start time for /Game/Squirrel/Maps/UEDPIE_0_Forest -0.593
+[2017.10.25-13.28.19:281][634]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.28.20:000][709]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.28.20:664][784]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.28.25:054][285]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.28.27:389][554]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.28.28:898][728]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.28.29:551][802]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.28.31:255][997]LogBlueprintUserMessages: [SquirrelBlueprints3_C_0] Saved cp
+[2017.10.25-13.28.41:632][441]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.25-13.28.41:632][441]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.25-13.28.41:633][441]LogNet: Browse: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.10.25-13.28.41:633][441]LogLoad: LoadMap: /Game/RollingBP/Maps/RollingBPExampleMap
+[2017.10.25-13.28.41:650][441]Cmd: MEM
+[2017.10.25-13.28.41:664][441]LogMemory: Platform Memory Stats for Windows
+[2017.10.25-13.28.41:664][441]LogMemory: Process Physical Memory: 1925.66 MB used, 2045.90 MB peak
+[2017.10.25-13.28.41:664][441]LogMemory: Process Virtual Memory: 2923.18 MB used, 3035.62 MB peak
+[2017.10.25-13.28.41:664][441]LogMemory: Physical Memory: 5107.58 MB used,  3065.66 MB free, 8173.24 MB total
+[2017.10.25-13.28.41:664][441]LogMemory: Virtual Memory: 3813.25 MB used,  3065.66 MB free, 134217728.00 MB total
+[2017.10.25-13.28.41:664][441]LogMemory: 
+[2017.10.25-13.28.41:664][441]Allocator Stats for TBB: (not implemented)
+[2017.10.25-13.28.42:199][441]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.10.25-13.28.42:199][441]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.25-13.28.42:214][441]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.10.25-15.28.42
+[2017.10.25-13.28.42:215][441]LogWorld: Bringing up level for play took: 0.014644
+[2017.10.25-13.28.42:217][441]LogLoad: Took 0.583969 seconds to LoadMap(/Game/RollingBP/Maps/RollingBPExampleMap)
+[2017.10.25-13.28.52:693][651]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.28.52:768][651]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.28.54:703][658]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-13.28.54:735][658]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.28.54:735][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-13.28.54:735][658]PIE: New page: PIE session: Forest (Oct 25, 2017, 5:28:54 PM)
+[2017.10.25-13.28.54:735][658]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/UEDPIE_0_Forest
+[2017.10.25-13.28.54:742][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007286s)
+[2017.10.25-13.28.54:743][658]LogAIModule: Creating AISystem for world Forest
+[2017.10.25-13.28.54:743][658]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2017.10.25-13.28.54:743][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/Forest.Forest to /Game/Squirrel/Maps/UEDPIE_0_Forest.Forest (0.008477s)
+[2017.10.25-13.28.54:768][658]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.28.54:777][658]LogInit: FAudioDevice initialized.
+[2017.10.25-13.28.54:820][658]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-13.28.54:824][658]LogWorld: Bringing World /Game/Squirrel/Maps/UEDPIE_0_Forest.Forest up for play (max tick rate 0) at 2017.10.25-15.28.54
+[2017.10.25-13.28.54:825][658]LogWorld: Bringing up level for play took: 0.003419
+[2017.10.25-13.28.54:825][658]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-13.28.54:825][658]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-13.28.54:825][658]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-13.28.54:828][658]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-13.28.54:832][658]PIE: Play in editor start time for /Game/Squirrel/Maps/UEDPIE_0_Forest 0.958
+[2017.10.25-13.28.54:832][658]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.28.55:888][764]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.28.56:548][839]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.28.59:722][201]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.28.59:790][201]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.29.00:930][326]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-13.29.00:961][326]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.29.00:961][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-13.29.00:961][326]PIE: New page: PIE session: Forest (Oct 25, 2017, 5:29:00 PM)
+[2017.10.25-13.29.00:961][326]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/UEDPIE_0_Forest
+[2017.10.25-13.29.00:968][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007240s)
+[2017.10.25-13.29.00:969][326]LogAIModule: Creating AISystem for world Forest
+[2017.10.25-13.29.00:969][326]LogPlayLevel: PIE: World Init took: (0.000993s)
+[2017.10.25-13.29.00:969][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/Forest.Forest to /Game/Squirrel/Maps/UEDPIE_0_Forest.Forest (0.008557s)
+[2017.10.25-13.29.01:002][326]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.29.01:010][326]LogInit: FAudioDevice initialized.
+[2017.10.25-13.29.01:055][326]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-13.29.01:058][326]LogWorld: Bringing World /Game/Squirrel/Maps/UEDPIE_0_Forest.Forest up for play (max tick rate 0) at 2017.10.25-15.29.01
+[2017.10.25-13.29.01:059][326]LogWorld: Bringing up level for play took: 0.003090
+[2017.10.25-13.29.01:060][326]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-13.29.01:060][326]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-13.29.01:060][326]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-13.29.01:062][326]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-13.29.01:066][326]PIE: Play in editor start time for /Game/Squirrel/Maps/UEDPIE_0_Forest -0.808
+[2017.10.25-13.29.01:067][326]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.29.01:806][401]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.29.02:468][475]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-13.29.04:859][745]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.29.04:927][745]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel' has LevelScriptBlueprint '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest' with GeneratedClass '/Game/Squirrel/Maps/Forest.Forest_C' with ClassGeneratedBy '/Game/Squirrel/Maps/Forest.Forest:PersistentLevel.Forest'
+[2017.10.25-13.29.47:963][953]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 113 classes and 0 folders.
+[2017.10.25-13.29.49:047][953]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-13.29.49:048][953]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.25-13.29.49:970][991]LogSlate: Took 0.016903 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.10.25-13.29.52:877][165]LogSlate: Took 0.004807 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.25-13.30.29:212][114]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.25-13.30.29:320][114]LogLinker: Warning: Can't find file '/Game/Player_Assets/Character/HeroTPP_Skeleton'
+[2017.10.25-13.30.29:320][114]LogLinker: Warning: Can't find file for asset '/Game/Player_Assets/Character/HeroTPP_Skeleton' while loading ../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/vegetation_pack/Content/Player_Assets/Animations/Idle.uasset.
+[2017.10.25-13.30.29:320][114]LoadErrors: Error: /Game/vegetation_pack/Content/Player_Assets/Animations/Idle : Can't find file for asset. /Game/Player_Assets/Character/HeroTPP_Skeleton
+[2017.10.25-13.30.29:320][114]LogLinker: Warning: Can't find file '/Game/Player_Assets/Character/HeroTPP_Skeleton'
+[2017.10.25-13.30.29:320][114]LogLinker: Warning: Can't find file for asset '/Game/Player_Assets/Character/HeroTPP_Skeleton' while loading ../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/vegetation_pack/Content/Player_Assets/Animations/Idle.uasset.
+[2017.10.25-13.30.30:606][154]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.25-13.30.39:543][764]BlueprintLog: New page: Compile SquirrelBlueprints3
+[2017.10.25-13.30.39:985][764]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.10.25-13.30.39:985][764]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.10.25-13.30.39:986][764]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.10.25-13.30.41:101][764]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] [0719.08] Compile of SquirrelBlueprints3 successful, but with 3 Warning(s) [in 1,558 ms] (/Game/Squirrel/BluePrints/SquirrelBlueprints3.SquirrelBlueprints3)
+[2017.10.25-13.30.44:586][910]LogSavePackage: Save=511.30ms
+[2017.10.25-13.30.44:586][910]LogSavePackage: Moving '../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/Saved/SquirrelBlueprints34FBCC3C64CC8FA82A3E6958F841F2C8D.tmp' to '../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/BluePrints/SquirrelBlueprints3.uasset'
+[2017.10.25-13.30.44:589][910]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Max/Documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/BluePrints/SquirrelBlueprints3.uasset
+[2017.10.25-13.30.46:369][  2]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Squirrel/BluePrints/SquirrelBlueprints3.SquirrelBlueprints3_C:SpawnPlayer'!
+>>>>>>> 37185a5464a010a131a983008641b5b02762c0c9
