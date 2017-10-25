@@ -1922,3 +1922,851 @@ LogInit: Object subsystem initialized
 [2017.10.25-20.21.08:858][279]LogSavePackage: Moving 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/PolyForest3D97E8F64C993AD04B0553AEA9D00DCE.tmp' to 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/Maps/MaisMap/PolyForest.umap'
 [2017.10.25-20.21.08:862][279]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/Maps/MaisMap/PolyForest.umap
 [2017.10.25-20.21.09:008][279]LogFileHelpers: Saving map 'PolyForest' took 9.721
+[2017.10.25-20.32.02:283][ 32]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Squirrel/Maps/MaisMap/PolyForest' took 0.025
+[2017.10.25-20.32.02:285][ 32]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RollingBP/Blueprints/FinishLine] ([1] browsable assets)...
+[2017.10.25-20.32.02:285][ 32]OBJ SavePackage: Finished generating thumbnails for package [/Game/RollingBP/Blueprints/FinishLine]
+[2017.10.25-20.32.02:301][ 32]LogSavePackage: Save=14.81ms
+[2017.10.25-20.32.02:301][ 32]LogSavePackage: Moving 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/FinishLine_Auto6134256F44548F3B92202899351BEBDCF.tmp' to 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/Autosaves/Game/RollingBP/Blueprints/FinishLine_Auto6.uasset'
+[2017.10.25-20.32.02:302][ 32]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/Autosaves/Game/RollingBP/Blueprints/FinishLine_Auto6.uasset
+[2017.10.25-20.32.02:302][ 32]LogFileHelpers: Auto-saving content packages took 0.018
+[2017.10.25-20.37.55:823][256]BlueprintLog: New page: Compile FinishLine
+[2017.10.25-20.38.51:504][324]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.25-20.40.54:797][140]LogBlueprint: Warning: [FinishLine] 'EndLevel' variable not found. Base class was probably changed.
+[2017.10.25-20.42.12:914][991]BlueprintLog: New page: Compile FinishLine
+[2017.10.25-20.42.12:931][991]LogBlueprint: Warning: [Compiler FinishLine] Could not find a variable named "EndLevel" in 'FinishLine_C'.
+Make sure 'FinishLine_C' has been compiled for  Get EndLevel
+[2017.10.25-20.42.12:932][991]LogBlueprint: Error: [Compiler FinishLine] The property associated with  End Level  could not be found
+[2017.10.25-20.42.13:093][991]LogBlueprint: Warning: [Compiler FinishLine] [6245.86] Compile of FinishLine failed. 1 Fatal Issue(s) 1 Warning(s) [in 178 ms] (/Game/RollingBP/Blueprints/FinishLine.FinishLine)
+[2017.10.25-20.42.58:722][541]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.25-20.43.37:448][397]BlueprintLog: New page: Compile FinishLine
+[2017.10.25-20.44.16:860][  0]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-20.44.16:901][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-20.44.16:901][  0]PIE: New page: PIE session: PolyForest (Oct 26, 2017, 12:44:16 AM)
+[2017.10.25-20.44.16:901][  0]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-20.44.17:087][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.185698s)
+[2017.10.25-20.44.17:088][  0]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-20.44.17:088][  0]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2017.10.25-20.44.17:088][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.186981s)
+[2017.10.25-20.44.17:126][  0]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-20.44.17:132][  0]LogInit: FAudioDevice initialized.
+[2017.10.25-20.44.17:170][  0]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-20.44.17:227][  0]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-22.44.17
+[2017.10.25-20.44.17:229][  0]LogWorld: Bringing up level for play took: 0.058352
+[2017.10.25-20.44.17:230][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.44.17:230][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.44.17:230][  0]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.44.17:767][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.44.17:777][  0]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest 0.104
+[2017.10.25-20.44.18:801][ 86]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.19:466][150]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.20:122][213]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.20:783][278]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.22:432][438]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.23:091][502]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.24:498][635]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.25:150][698]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.25:818][762]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.26:479][824]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.28:583][ 29]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.31:394][302]LogBlueprintUserMessages: [SquirrelBlueprints3_C_0] Saved
+[2017.10.25-20.44.34:343][598]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.25-20.44.34:343][598]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.25-20.44.34:343][598]LogNet: Browse: /Game/Squirrel/Maps/Forest
+[2017.10.25-20.44.34:344][598]LogLoad: LoadMap: /Game/Squirrel/Maps/Forest
+[2017.10.25-20.44.34:398][598]Cmd: MEM
+[2017.10.25-20.44.34:421][598]LogMemory: Platform Memory Stats for Windows
+[2017.10.25-20.44.34:421][598]LogMemory: Process Physical Memory: 3265.15 MB used, 3289.05 MB peak
+[2017.10.25-20.44.34:421][598]LogMemory: Process Virtual Memory: 4927.52 MB used, 4937.41 MB peak
+[2017.10.25-20.44.34:421][598]LogMemory: Physical Memory: 7936.42 MB used,  237.00 MB free, 8173.43 MB total
+[2017.10.25-20.44.34:421][598]LogMemory: Virtual Memory: 5691.00 MB used,  237.00 MB free, 8388608.00 MB total
+[2017.10.25-20.44.34:421][598]LogMemory: 
+[2017.10.25-20.44.34:421][598]Allocator Stats for TBB: (not implemented)
+[2017.10.25-20.44.36:150][598]LogLinker: Warning: Can't find file '/Game/Player_Assets/Character/HeroTPP_Skeleton'
+[2017.10.25-20.44.36:151][598]LogLinker: Warning: Can't find file for asset '/Game/Player_Assets/Character/HeroTPP_Skeleton' while loading E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/vegetation_pack/Content/Player_Assets/Animations/Idle.uasset.
+[2017.10.25-20.44.36:151][598]LogLinker: Warning: Can't find file '/Game/Player_Assets/Character/HeroTPP_Skeleton'
+[2017.10.25-20.44.36:151][598]LogLinker: Warning: Can't find file for asset '/Game/Player_Assets/Character/HeroTPP_Skeleton' while loading E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/vegetation_pack/Content/Player_Assets/Animations/Idle.uasset.
+[2017.10.25-20.44.37:534][598]LogAIModule: Creating AISystem for world Forest
+[2017.10.25-20.44.37:535][598]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-20.44.37:539][598]LogWorld: Bringing World /Game/Squirrel/Maps/UEDPIE_0_Forest.Forest up for play (max tick rate 0) at 2017.10.25-22.44.37
+[2017.10.25-20.44.37:540][598]LogWorld: Bringing up level for play took: 0.004366
+[2017.10.25-20.44.37:540][598]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.44.37:540][598]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.44.37:540][598]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.44.37:543][598]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.44.37:543][598]LogLoad: Took 3.199008 seconds to LoadMap(/Game/Squirrel/Maps/Forest)
+[2017.10.25-20.44.38:398][663]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.39:950][801]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-20.44.39:984][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-20.44.39:984][801]PIE: New page: PIE session: PolyForest (Oct 26, 2017, 12:44:39 AM)
+[2017.10.25-20.44.39:984][801]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-20.44.40:168][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.183904s)
+[2017.10.25-20.44.40:169][801]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-20.44.40:169][801]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2017.10.25-20.44.40:169][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.185199s)
+[2017.10.25-20.44.40:198][801]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-20.44.40:203][801]LogInit: FAudioDevice initialized.
+[2017.10.25-20.44.40:241][801]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-20.44.40:298][801]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-22.44.40
+[2017.10.25-20.44.40:300][801]LogWorld: Bringing up level for play took: 0.058656
+[2017.10.25-20.44.40:301][801]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.44.40:301][801]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.44.40:301][801]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.44.40:305][801]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.44.40:310][801]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest 0.637
+[2017.10.25-20.44.41:172][879]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.41:825][944]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.42:493][  8]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.43:151][ 73]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.44:747][232]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.45:415][298]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.46:906][444]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.48:818][630]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.50:702][816]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.44.53:750][115]LogBlueprintUserMessages: [SquirrelBlueprints3_C_0] Saved
+[2017.10.25-20.45.21:599][881]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-20.45.21:629][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-20.45.21:629][881]PIE: New page: PIE session: PolyForest (Oct 26, 2017, 12:45:21 AM)
+[2017.10.25-20.45.21:630][881]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-20.45.21:812][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.182529s)
+[2017.10.25-20.45.21:813][881]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-20.45.21:813][881]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2017.10.25-20.45.21:813][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.183742s)
+[2017.10.25-20.45.21:842][881]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-20.45.21:847][881]LogInit: FAudioDevice initialized.
+[2017.10.25-20.45.21:889][881]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-20.45.21:947][881]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-22.45.21
+[2017.10.25-20.45.21:949][881]LogWorld: Bringing up level for play took: 0.059780
+[2017.10.25-20.45.21:950][881]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.45.21:950][881]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.45.21:950][881]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.45.21:954][881]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.45.21:959][881]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest 0.286
+[2017.10.25-20.45.25:021][154]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-20.45.25:052][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-20.45.25:052][154]PIE: New page: PIE session: PolyForest (Oct 26, 2017, 12:45:25 AM)
+[2017.10.25-20.45.25:052][154]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-20.45.25:234][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.181825s)
+[2017.10.25-20.45.25:235][154]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-20.45.25:235][154]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2017.10.25-20.45.25:235][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.183185s)
+[2017.10.25-20.45.25:264][154]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-20.45.25:269][154]LogInit: FAudioDevice initialized.
+[2017.10.25-20.45.25:314][154]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-20.45.25:389][154]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-22.45.25
+[2017.10.25-20.45.25:391][154]LogWorld: Bringing up level for play took: 0.074860
+[2017.10.25-20.45.25:391][154]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.45.25:391][154]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.45.25:391][154]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.45.25:395][154]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.45.25:400][154]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest -0.273
+[2017.10.25-20.45.38:362][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/FinishLine" FILE="E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/RollingBP/Blueprints/FinishLine.uasset" SILENT=true
+[2017.10.25-20.45.38:464][268]LogSavePackage: Save=99.02ms
+[2017.10.25-20.45.38:464][268]LogSavePackage: Moving 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/FinishLine261F1545454C1DF4C3FA0D824D2BADF6.tmp' to 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/RollingBP/Blueprints/FinishLine.uasset'
+[2017.10.25-20.45.38:465][268]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/RollingBP/Blueprints/FinishLine.uasset
+[2017.10.25-20.45.47:629][268]LogSavePackage: Save=2965.96ms
+[2017.10.25-20.45.47:629][268]LogSavePackage: Moving 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/PolyForest4C730A3B45E7969B27E3E0B3CD5F3BFF.tmp' to 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/Maps/MaisMap/PolyForest.umap'
+[2017.10.25-20.45.47:633][268]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/Maps/MaisMap/PolyForest.umap
+[2017.10.25-20.45.47:844][268]LogFileHelpers: Saving map 'PolyForest' took 9.377
+[2017.10.25-20.46.01:450][666]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-20.46.01:480][666]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-20.46.01:481][666]PIE: New page: PIE session: PolyForest (Oct 26, 2017, 12:46:01 AM)
+[2017.10.25-20.46.01:481][666]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-20.46.01:665][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.184073s)
+[2017.10.25-20.46.01:666][666]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-20.46.01:666][666]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2017.10.25-20.46.01:666][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.185430s)
+[2017.10.25-20.46.01:696][666]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-20.46.01:701][666]LogInit: FAudioDevice initialized.
+[2017.10.25-20.46.01:740][666]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-20.46.01:798][666]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-22.46.01
+[2017.10.25-20.46.01:800][666]LogWorld: Bringing up level for play took: 0.059651
+[2017.10.25-20.46.01:801][666]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.46.01:801][666]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.46.01:801][666]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.46.01:804][666]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.46.01:810][666]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest 0.136
+[2017.10.25-20.46.02:843][757]LogBlueprintUserMessages: [SquirrelBlueprints3_C_0] Saved
+[2017.10.25-20.46.04:264][892]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.46.04:927][954]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.46.05:581][ 17]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.46.06:248][ 80]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.46.08:043][257]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.46.08:700][322]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.46.10:161][466]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.46.12:083][651]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.46.14:073][847]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.46.17:106][146]LogBlueprintUserMessages: [SquirrelBlueprints3_C_0] Saved
+[2017.10.25-20.46.32:850][711]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-20.46.32:880][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-20.46.32:880][711]PIE: New page: PIE session: PolyForest (Oct 26, 2017, 12:46:32 AM)
+[2017.10.25-20.46.32:880][711]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-20.46.33:062][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.181915s)
+[2017.10.25-20.46.33:063][711]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-20.46.33:063][711]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2017.10.25-20.46.33:063][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.183129s)
+[2017.10.25-20.46.33:092][711]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-20.46.33:097][711]LogInit: FAudioDevice initialized.
+[2017.10.25-20.46.33:138][711]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-20.46.33:195][711]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-22.46.33
+[2017.10.25-20.46.33:196][711]LogWorld: Bringing up level for play took: 0.058040
+[2017.10.25-20.46.33:197][711]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.46.33:197][711]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.46.33:197][711]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.46.33:201][711]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.46.33:206][711]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest -0.468
+[2017.10.25-20.49.04:310][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Mounting_10)
+[2017.10.25-20.49.05:444][512]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2017.10.25-20.49.06:419][600]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2017.10.25-20.49.06:835][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OakTree9)
+[2017.10.25-20.50.37:860][832]LogActorFactory: Actor Factory created Cube
+[2017.10.25-20.50.38:894][914]LogActorFactory: Actor Factory created Cube
+[2017.10.25-20.51.28:958][204]Cmd: EDIT COPY
+[2017.10.25-20.51.52:689][543]Cmd: EDIT COPY
+[2017.10.25-20.51.53:112][586]Cmd: EDIT PASTE
+[2017.10.25-20.51.55:633][830]Cmd: EDIT COPY
+[2017.10.25-20.51.56:024][868]Cmd: EDIT PASTE
+[2017.10.25-20.52.15:323][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.10.25-20.52.15:580][771]Cmd: EDIT COPY
+[2017.10.25-20.52.20:100][209]Cmd: EDIT PASTE
+[2017.10.25-20.52.28:196][991]Cmd: EDIT COPY
+[2017.10.25-20.52.28:604][ 30]Cmd: EDIT PASTE
+[2017.10.25-20.52.35:850][736]Cmd: EDIT COPY
+[2017.10.25-20.52.36:253][775]Cmd: EDIT PASTE
+[2017.10.25-20.52.36:889][833]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2017.10.25-20.52.55:323][647]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-20.52.55:355][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-20.52.55:355][647]PIE: New page: PIE session: PolyForest (Oct 26, 2017, 12:52:55 AM)
+[2017.10.25-20.52.55:355][647]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-20.52.55:541][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.185837s)
+[2017.10.25-20.52.55:542][647]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-20.52.55:542][647]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2017.10.25-20.52.55:542][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.187187s)
+[2017.10.25-20.52.55:567][647]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-20.52.55:572][647]LogInit: FAudioDevice initialized.
+[2017.10.25-20.52.55:615][647]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-20.52.55:675][647]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-22.52.55
+[2017.10.25-20.52.55:677][647]LogWorld: Bringing up level for play took: 0.060901
+[2017.10.25-20.52.55:678][647]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.52.55:678][647]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.52.55:678][647]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.52.55:681][647]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.52.55:687][647]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest 0.009
+[2017.10.25-20.52.57:359][801]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.52.58:019][863]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.52.58:680][928]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.52.59:345][990]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.00:000][ 53]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.00:667][116]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.01:320][179]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.01:983][244]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.02:644][308]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.03:300][372]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.03:961][437]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.05:592][597]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.06:180][653]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.06:835][718]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.07:496][784]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.08:158][849]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.08:816][914]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.09:480][980]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.10:140][ 46]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.10:796][112]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.13:086][332]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.13:740][396]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.14:400][459]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.15:065][524]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.15:722][589]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.16:387][655]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.17:045][721]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.17:708][787]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.18:370][854]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.19:026][920]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.19:685][983]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.20:353][ 50]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.21:007][116]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.21:673][183]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.22:334][249]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.22:991][315]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.23:655][380]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.24:307][445]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.24:969][512]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.25:628][578]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.26:289][642]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.26:953][707]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.27:618][774]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.28:273][840]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.28:938][907]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.29:594][973]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.30:252][ 39]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.32:345][248]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.33:003][310]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.33:665][373]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.34:322][437]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.34:991][502]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.35:646][565]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.36:671][664]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.37:325][726]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.38:182][809]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.38:961][884]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.39:644][947]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.40:625][ 42]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.41:285][106]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.41:938][169]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.42:598][233]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.43:260][299]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.44:345][402]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.45:003][464]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.45:663][528]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.46:324][589]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.46:992][652]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.47:655][717]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.48:307][781]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.48:974][848]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.49:630][914]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.50:295][981]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.50:948][ 47]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.53.51:610][113]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.54.11:534][738]LogSavePackage: Save=3023.16ms
+[2017.10.25-20.54.11:534][738]LogSavePackage: Moving 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/PolyForestE13D22BF4572339AA3735B9AFA1D9650.tmp' to 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/Maps/MaisMap/PolyForest.umap'
+[2017.10.25-20.54.11:539][738]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/Maps/MaisMap/PolyForest.umap
+[2017.10.25-20.55.09:628][924]BlueprintLog: New page: Compile HealthBarSquirrel
+[2017.10.25-20.55.09:869][924]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.10.25-20.55.09:870][924]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.10.25-20.55.09:871][924]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.10.25-20.55.09:945][924]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] [7022.71] Compile of SquirrelBlueprints3 successful, but with 3 Warning(s) [in 306 ms] (/Game/Squirrel/BluePrints/SquirrelBlueprints3.SquirrelBlueprints3)
+[2017.10.25-20.55.10:800][954]LogSavePackage: Save=67.79ms
+[2017.10.25-20.55.10:800][954]LogSavePackage: Moving 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/HealthBarSquirrel5EB7369E4E191A238E45D19875D297F6.tmp' to 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/BluePrints/UI/HealthBarSquirrel.uasset'
+[2017.10.25-20.55.10:802][954]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/BluePrints/UI/HealthBarSquirrel.uasset
+[2017.10.25-20.55.25:582][943]LogSlate: Took 0.005504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.25-20.57.18:476][460]BlueprintLog: New page: Compile HealthBarSquirrel
+[2017.10.25-20.57.18:645][460]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.10.25-20.57.18:645][460]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.10.25-20.57.18:646][460]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.10.25-20.57.18:718][460]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] [7151.48] Compile of SquirrelBlueprints3 successful, but with 3 Warning(s) [in 230 ms] (/Game/Squirrel/BluePrints/SquirrelBlueprints3.SquirrelBlueprints3)
+[2017.10.25-20.57.19:622][494]LogSavePackage: Save=72.30ms
+[2017.10.25-20.57.19:622][494]LogSavePackage: Moving 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/HealthBarSquirrelF58D9B9B4BCCE01542B282B2DDCCC457.tmp' to 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/BluePrints/UI/HealthBarSquirrel.uasset'
+[2017.10.25-20.57.19:624][494]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/BluePrints/UI/HealthBarSquirrel.uasset
+[2017.10.25-20.57.22:149][688]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-20.57.22:194][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-20.57.22:194][688]PIE: New page: PIE session: PolyForest (Oct 26, 2017, 12:57:22 AM)
+[2017.10.25-20.57.22:194][688]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-20.57.22:378][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.184064s)
+[2017.10.25-20.57.22:379][688]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-20.57.22:379][688]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2017.10.25-20.57.22:380][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.185428s)
+[2017.10.25-20.57.22:411][688]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-20.57.22:417][688]LogInit: FAudioDevice initialized.
+[2017.10.25-20.57.22:463][688]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-20.57.22:534][688]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-22.57.22
+[2017.10.25-20.57.22:536][688]LogWorld: Bringing up level for play took: 0.072037
+[2017.10.25-20.57.22:537][688]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.57.22:537][688]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.57.22:537][688]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.57.22:540][688]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.57.22:546][688]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest 0.867
+[2017.10.25-20.57.23:588][780]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.57.24:254][844]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.57.24:907][907]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.57.25:572][971]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.57.27:158][124]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.57.27:817][185]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.57.29:425][337]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.57.30:094][399]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.57.30:753][461]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.57.31:414][524]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.57.32:067][586]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.57.37:888][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2017.10.25-20.57.47:014][968]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube6)
+[2017.10.25-20.57.47:441][  1]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2017.10.25-20.57.48:227][ 71]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2017.10.25-20.57.48:951][133]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2017.10.25-20.57.49:751][203]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2017.10.25-20.57.57:837][964]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-20.57.57:871][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-20.57.57:871][964]PIE: New page: PIE session: PolyForest (Oct 26, 2017, 12:57:57 AM)
+[2017.10.25-20.57.57:871][964]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-20.57.58:051][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.180592s)
+[2017.10.25-20.57.58:052][964]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-20.57.58:053][964]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2017.10.25-20.57.58:053][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.182052s)
+[2017.10.25-20.57.58:084][964]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-20.57.58:089][964]LogInit: FAudioDevice initialized.
+[2017.10.25-20.57.58:128][964]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-20.57.58:186][964]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-22.57.58
+[2017.10.25-20.57.58:188][964]LogWorld: Bringing up level for play took: 0.058917
+[2017.10.25-20.57.58:189][964]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.57.58:189][964]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.57.58:189][964]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.57.58:192][964]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.57.58:198][964]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest 0.518
+[2017.10.25-20.57.59:218][ 52]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.57.59:872][114]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.01:558][276]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.02:224][340]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.03:823][492]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.04:482][556]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.06:004][703]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.06:664][767]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.07:322][830]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.07:988][894]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.08:649][958]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.10:284][115]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.10:942][177]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.11:612][242]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.12:270][306]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.13:562][432]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-20.58.13:970][471]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.15:558][627]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-20.58.15:622][633]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.15:643][635]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-20.58.15:644][635]LogBlueprintUserMessages: [SquirrelBlueprints3_C_0] Saved cp
+[2017.10.25-20.58.24:481][511]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.25-20.58.24:481][511]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.25-20.58.24:481][511]LogNet: Browse: /Game/Squirrel/Maps/Forest
+[2017.10.25-20.58.24:482][511]LogLoad: LoadMap: /Game/Squirrel/Maps/Forest
+[2017.10.25-20.58.24:535][511]Cmd: MEM
+[2017.10.25-20.58.24:560][511]LogMemory: Platform Memory Stats for Windows
+[2017.10.25-20.58.24:560][511]LogMemory: Process Physical Memory: 3461.32 MB used, 3478.86 MB peak
+[2017.10.25-20.58.24:560][511]LogMemory: Process Virtual Memory: 5113.71 MB used, 5288.35 MB peak
+[2017.10.25-20.58.24:560][511]LogMemory: Physical Memory: 7767.38 MB used,  406.04 MB free, 8173.43 MB total
+[2017.10.25-20.58.24:560][511]LogMemory: Virtual Memory: 5868.91 MB used,  406.04 MB free, 8388608.00 MB total
+[2017.10.25-20.58.24:560][511]LogMemory: 
+[2017.10.25-20.58.24:560][511]Allocator Stats for TBB: (not implemented)
+[2017.10.25-20.58.25:832][511]LogLinker: Warning: Can't find file '/Game/Player_Assets/Character/HeroTPP_Skeleton'
+[2017.10.25-20.58.25:832][511]LogLinker: Warning: Can't find file for asset '/Game/Player_Assets/Character/HeroTPP_Skeleton' while loading E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/vegetation_pack/Content/Player_Assets/Animations/Idle.uasset.
+[2017.10.25-20.58.25:832][511]LogLinker: Warning: Can't find file '/Game/Player_Assets/Character/HeroTPP_Skeleton'
+[2017.10.25-20.58.25:832][511]LogLinker: Warning: Can't find file for asset '/Game/Player_Assets/Character/HeroTPP_Skeleton' while loading E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/vegetation_pack/Content/Player_Assets/Animations/Idle.uasset.
+[2017.10.25-20.58.26:828][511]LogAIModule: Creating AISystem for world Forest
+[2017.10.25-20.58.26:828][511]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-20.58.26:833][511]LogWorld: Bringing World /Game/Squirrel/Maps/UEDPIE_0_Forest.Forest up for play (max tick rate 0) at 2017.10.25-22.58.26
+[2017.10.25-20.58.26:833][511]LogWorld: Bringing up level for play took: 0.004110
+[2017.10.25-20.58.26:834][511]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.58.26:834][511]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.58.26:834][511]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.58.26:836][511]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.58.26:836][511]LogLoad: Took 2.354150 seconds to LoadMap(/Game/Squirrel/Maps/Forest)
+[2017.10.25-20.58.29:032][694]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-20.58.29:071][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-20.58.29:071][694]PIE: New page: PIE session: PolyForest (Oct 26, 2017, 12:58:29 AM)
+[2017.10.25-20.58.29:071][694]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-20.58.29:253][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.181471s)
+[2017.10.25-20.58.29:254][694]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-20.58.29:254][694]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2017.10.25-20.58.29:254][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.182645s)
+[2017.10.25-20.58.29:284][694]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-20.58.29:290][694]LogInit: FAudioDevice initialized.
+[2017.10.25-20.58.29:337][694]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-20.58.29:405][694]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-22.58.29
+[2017.10.25-20.58.29:407][694]LogWorld: Bringing up level for play took: 0.069157
+[2017.10.25-20.58.29:408][694]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.58.29:408][694]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-20.58.29:408][694]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.58.29:411][694]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-20.58.29:417][694]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest -0.263
+[2017.10.25-20.58.30:284][767]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.30:946][828]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.31:605][891]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.32:266][954]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.33:800][101]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.36:556][363]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.37:988][497]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.38:645][560]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.40:334][720]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.42:078][886]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-20.58.42:100][888]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-20.58.42:468][923]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-20.58.42:532][929]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-20.58.42:534][929]LogBlueprintUserMessages: [SquirrelBlueprints3_C_0] Saved cp
+[2017.10.25-20.58.51:576][810]LogRenderer: Reallocating scene render targets to support 1920x1016 Format 10 NumSamples 1 (Frame:2118).
+[2017.10.25-20.58.56:162][205]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2017.10.25-20.58.57:414][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OakTree10)
+[2017.10.25-21.05.18:653][168]LogSavePackage: Save=3019.40ms
+[2017.10.25-21.05.18:653][168]LogSavePackage: Moving 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/PolyForest_Auto767B793A6414138CD5342A4A511EC5AF4.tmp' to 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/Autosaves/Game/Squirrel/Maps/MaisMap/PolyForest_Auto7.umap'
+[2017.10.25-21.05.18:654][168]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/Autosaves/Game/Squirrel/Maps/MaisMap/PolyForest_Auto7.umap
+[2017.10.25-21.05.18:656][168]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Squirrel/Maps/MaisMap/PolyForest' took 4.191
+[2017.10.25-21.05.18:656][168]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.191
+[2017.10.25-21.12.50:575][496]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Squirrel/BluePrints/SquirrelBlueprints3.SquirrelBlueprints3_C:SpawnPlayer'!
+[2017.10.25-21.13.32:777][  1]BlueprintLog: New page: Compile SquirrelBlueprints3
+[2017.10.25-21.13.33:211][  1]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.10.25-21.13.33:212][  1]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.10.25-21.13.33:213][  1]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.10.25-21.13.47:827][  1]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] [8140.58] Compile of SquirrelBlueprints3 successful, but with 3 Warning(s) [in 15,049 ms] (/Game/Squirrel/BluePrints/SquirrelBlueprints3.SquirrelBlueprints3)
+[2017.10.25-21.13.51:105][142]LogSavePackage: Save=523.73ms
+[2017.10.25-21.13.51:105][142]LogSavePackage: Moving 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/SquirrelBlueprints3AFFFDA4A4D946356BF5F288D5DAB3E1B.tmp' to 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/BluePrints/SquirrelBlueprints3.uasset'
+[2017.10.25-21.13.51:114][142]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/BluePrints/SquirrelBlueprints3.uasset
+[2017.10.25-21.13.52:847][313]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-21.13.52:881][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-21.13.52:881][313]PIE: New page: PIE session: PolyForest (Oct 26, 2017, 1:13:52 AM)
+[2017.10.25-21.13.52:882][313]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-21.13.53:063][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.181101s)
+[2017.10.25-21.13.53:063][313]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-21.13.53:064][313]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2017.10.25-21.13.53:064][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.182271s)
+[2017.10.25-21.13.53:097][313]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-21.13.53:103][313]LogInit: FAudioDevice initialized.
+[2017.10.25-21.13.53:145][313]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-21.13.53:203][313]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-23.13.53
+[2017.10.25-21.13.53:205][313]LogWorld: Bringing up level for play took: 0.059222
+[2017.10.25-21.13.53:206][313]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-21.13.53:206][313]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-21.13.53:206][313]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-21.13.53:207][313]PIE: Warning: Invalid Simulate Options: Body (SquirrelBlueprints3_C_0.CharacterMesh0 Squirrel_Skeleton_updated) is set to simulate physics but Collision Enabled is incompatible
+[2017.10.25-21.13.53:207][313]PIE: Warning: Invalid Simulate Options: Body (SquirrelBlueprints3_C_0.CharacterMesh0 Squirrel_Skeleton_updated) is set to simulate physics but Collision Enabled is incompatible
+[2017.10.25-21.13.53:209][313]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-21.13.53:215][313]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest -0.473
+[2017.10.25-21.13.54:121][398]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-21.13.56:073][600]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-21.13.56:640][659]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-21.13.58:391][842]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-21.13.58:485][852]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-21.13.59:785][988]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-21.14.00:310][ 41]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-21.14.00:311][ 41]LogBlueprintUserMessages: [SquirrelBlueprints3_C_0] Saved cp
+[2017.10.25-21.14.20:315][369]BlueprintLog: New page: Compile SquirrelBlueprints3
+[2017.10.25-21.14.20:732][369]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2017.10.25-21.14.20:732][369]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2017.10.25-21.14.20:733][369]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2017.10.25-21.14.35:412][369]LogBlueprint: Warning: [Compiler SquirrelBlueprints3] [8188.16] Compile of SquirrelBlueprints3 successful, but with 3 Warning(s) [in 15,096 ms] (/Game/Squirrel/BluePrints/SquirrelBlueprints3.SquirrelBlueprints3)
+[2017.10.25-21.15.25:776][ 34]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.25-21.15.25:810][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-21.15.25:810][ 34]PIE: New page: PIE session: PolyForest (Oct 26, 2017, 1:15:25 AM)
+[2017.10.25-21.15.25:810][ 34]LogPlayLevel: Creating play world package: /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest
+[2017.10.25-21.15.25:993][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.182917s)
+[2017.10.25-21.15.25:994][ 34]LogAIModule: Creating AISystem for world PolyForest
+[2017.10.25-21.15.25:994][ 34]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2017.10.25-21.15.25:995][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Squirrel/Maps/MaisMap/PolyForest.PolyForest to /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest (0.184112s)
+[2017.10.25-21.15.26:028][ 34]LogInit: XAudio2 using 'SMT27A300-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-21.15.26:033][ 34]LogInit: FAudioDevice initialized.
+[2017.10.25-21.15.26:075][ 34]LogLoad: Game class is 'MyGame_C'
+[2017.10.25-21.15.26:132][ 34]LogWorld: Bringing World /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest.PolyForest up for play (max tick rate 0) at 2017.10.25-23.15.26
+[2017.10.25-21.15.26:135][ 34]LogWorld: Bringing up level for play took: 0.058728
+[2017.10.25-21.15.26:135][ 34]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-21.15.26:135][ 34]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.25-21.15.26:135][ 34]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-21.15.26:136][ 34]PIE: Warning: Invalid Simulate Options: Body (SquirrelBlueprints3_C_0.CharacterMesh0 Squirrel_Skeleton_updated) is set to simulate physics but Collision Enabled is incompatible
+[2017.10.25-21.15.26:136][ 34]PIE: Warning: Invalid Simulate Options: Body (SquirrelBlueprints3_C_0.CharacterMesh0 Squirrel_Skeleton_updated) is set to simulate physics but Collision Enabled is incompatible
+[2017.10.25-21.15.26:139][ 34]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.25-21.15.26:145][ 34]PIE: Play in editor start time for /Game/Squirrel/Maps/MaisMap/UEDPIE_0_PolyForest 0.456
+[2017.10.25-21.15.27:011][111]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-21.15.27:672][177]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-21.15.28:333][243]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-21.15.28:995][309]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-21.15.29:489][359]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-21.15.30:395][452]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-21.15.31:057][517]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Squirrel/Animations/Rolling.Rolling'
+[2017.10.25-21.15.31:415][553]PIE: Warning: SquirrelBlueprints3_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2017.10.25-21.17.00:704][779]LogSavePackage: Save=3014.79ms
+[2017.10.25-21.17.00:704][779]LogSavePackage: Moving 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/PolyForest_Auto88398CC924358E7EF432B5E91CB39893E.tmp' to 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/Autosaves/Game/Squirrel/Maps/MaisMap/PolyForest_Auto8.umap'
+[2017.10.25-21.17.00:705][779]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/Autosaves/Game/Squirrel/Maps/MaisMap/PolyForest_Auto8.umap
+[2017.10.25-21.17.00:707][779]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Squirrel/Maps/MaisMap/PolyForest' took 3.696
+[2017.10.25-21.17.00:708][779]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.696
+[2017.10.25-21.17.00:711][779]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Squirrel/BluePrints/SquirrelBlueprints3] ([1] browsable assets)...
+[2017.10.25-21.17.00:745][779]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Squirrel/BluePrints/SquirrelBlueprints3.SquirrelBlueprints3]
+[2017.10.25-21.17.00:745][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Squirrel/BluePrints/SquirrelBlueprints3]
+[2017.10.25-21.17.01:264][779]LogSavePackage: Save=514.91ms
+[2017.10.25-21.17.01:264][779]LogSavePackage: Moving 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/SquirrelBlueprints3_Auto81ED72254443704A4294B5597A2C38FDF.tmp' to 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/Autosaves/Game/Squirrel/BluePrints/SquirrelBlueprints3_Auto8.uasset'
+[2017.10.25-21.17.01:264][779]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/Autosaves/Game/Squirrel/BluePrints/SquirrelBlueprints3_Auto8.uasset
+[2017.10.25-21.17.01:264][779]LogFileHelpers: Auto-saving content packages took 0.554
+[2017.10.25-21.49.04:803][814]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.25-21.49.04:953][814]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Squirrel/BluePrints/SquirrelBlueprints3.SquirrelBlueprints3_C:SpawnPlayer'!
+[2017.10.25-21.49.04:953][814]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.25-21.49.07:918][905]LogSavePackage: Save=497.90ms
+[2017.10.25-21.49.07:918][905]LogSavePackage: Moving 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/SquirrelBlueprints39A437A4041E0224242E1C7930DA3EB92.tmp' to 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/BluePrints/SquirrelBlueprints3.uasset'
+[2017.10.25-21.49.07:922][905]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/BluePrints/SquirrelBlueprints3.uasset
+[2017.10.25-21.49.19:130][905]LogSavePackage: Save=2995.22ms
+[2017.10.25-21.49.19:130][905]LogSavePackage: Moving 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/PolyForest773B9DF94B01820ED02A9DB5D0A75504.tmp' to 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/Maps/MaisMap/PolyForest.umap'
+[2017.10.25-21.49.19:134][905]LogSavePackage: Display: Finished SavePackage E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Squirrel/Maps/MaisMap/PolyForest.umap
+[2017.10.25-21.49.19:247][905]LogFileHelpers: Saving map 'PolyForest' took 11.322
+[2017.10.25-21.49.21:127][ 75]Cmd: QUIT_EDITOR
+[2017.10.25-21.49.21:187][ 75]LogExit: Preparing to exit.
+[2017.10.25-21.49.22:422][ 75]LogExit: Editor shut down
+[2017.10.25-21.49.22:427][ 75]LogExit: Transaction tracking system shut down
+[2017.10.25-21.49.22:590][ 75]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.25-21.49.22:591][ 75]LogDirectoryWatcher: A directory notification for 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/' was aborted.
+[2017.10.25-21.49.22:591][ 75]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.25-21.49.22:591][ 75]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.25-21.49.22:591][ 75]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.25-21.49.23:217][ 75]LogExit: Object subsystem successfully closed.
+[2017.10.25-21.49.23:262][ 75]LogD3D11RHI: Shutdown
+[2017.10.25-21.49.23:263][ 75]LogD3D11RHI: CleanupD3DDevice
+[2017.10.25-21.49.23:625][ 75]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.25-21.49.23:689][ 75]LogModuleManager: Shutting down and abandoning module SequencerWidgets (548)
+[2017.10.25-21.49.23:689][ 75]LogModuleManager: Shutting down and abandoning module TextureEditor (546)
+[2017.10.25-21.49.23:689][ 75]LogModuleManager: Shutting down and abandoning module MaterialEditor (544)
+[2017.10.25-21.49.23:689][ 75]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (542)
+[2017.10.25-21.49.23:689][ 75]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (540)
+[2017.10.25-21.49.23:689][ 75]LogModuleManager: Shutting down and abandoning module BlueprintGraph (538)
+[2017.10.25-21.49.23:689][ 75]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (536)
+[2017.10.25-21.49.23:690][ 75]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.10.25-21.49.23:691][ 75]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.10.25-21.49.23:691][ 75]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2017.10.25-21.49.23:691][ 75]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.10.25-21.49.23:692][ 75]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.25-21.49.23:694][ 75]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.10.25-21.49.23:694][ 75]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.10.25-21.49.23:694][ 75]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.10.25-21.49.23:695][ 75]LogDirectoryWatcher: A directory notification for 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Collections/' was aborted.
+[2017.10.25-21.49.23:695][ 75]LogDirectoryWatcher: A directory notification for 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Content/Developers/maija/Collections/' was aborted.
+[2017.10.25-21.49.23:695][ 75]LogDirectoryWatcher: A directory notification for 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Saved/Collections/' was aborted.
+[2017.10.25-21.49.23:695][ 75]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.10.25-21.49.23:696][ 75]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.10.25-21.49.23:696][ 75]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.10.25-21.49.23:696][ 75]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.10.25-21.49.23:696][ 75]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.10.25-21.49.23:696][ 75]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.10.25-21.49.23:696][ 75]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.10.25-21.49.23:696][ 75]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.10.25-21.49.23:696][ 75]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.10.25-21.49.23:696][ 75]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.10.25-21.49.23:696][ 75]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.10.25-21.49.23:696][ 75]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.10.25-21.49.23:697][ 75]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.10.25-21.49.23:697][ 75]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.10.25-21.49.23:697][ 75]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.10.25-21.49.23:698][ 75]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.10.25-21.49.23:698][ 75]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.10.25-21.49.23:698][ 75]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.10.25-21.49.23:698][ 75]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.10.25-21.49.23:698][ 75]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.10.25-21.49.23:698][ 75]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.10.25-21.49.23:698][ 75]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.10.25-21.49.23:698][ 75]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.10.25-21.49.23:698][ 75]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.10.25-21.49.23:698][ 75]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.10.25-21.49.23:698][ 75]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.10.25-21.49.23:699][ 75]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.10.25-21.49.23:699][ 75]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.10.25-21.49.23:699][ 75]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.10.25-21.49.23:699][ 75]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.10.25-21.49.23:699][ 75]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.10.25-21.49.23:700][ 75]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.10.25-21.49.23:701][ 75]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.10.25-21.49.23:702][ 75]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.10.25-21.49.23:703][ 75]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.10.25-21.49.23:703][ 75]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.10.25-21.49.23:703][ 75]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.10.25-21.49.23:703][ 75]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.10.25-21.49.23:916][ 75]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.10.25-21.49.23:916][ 75]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.10.25-21.49.23:916][ 75]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.10.25-21.49.23:916][ 75]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.10.25-21.49.23:917][ 75]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.10.25-21.49.23:917][ 75]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.10.25-21.49.23:917][ 75]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.10.25-21.49.23:918][ 75]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.10.25-21.49.23:918][ 75]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.10.25-21.49.23:918][ 75]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.10.25-21.49.23:919][ 75]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.10.25-21.49.23:919][ 75]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.10.25-21.49.23:919][ 75]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.10.25-21.49.23:919][ 75]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.10.25-21.49.23:919][ 75]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.10.25-21.49.23:919][ 75]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.10.25-21.49.23:920][ 75]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.10.25-21.49.23:920][ 75]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.10.25-21.49.23:920][ 75]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.10.25-21.49.23:920][ 75]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.10.25-21.49.23:921][ 75]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.10.25-21.49.23:921][ 75]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.10.25-21.49.23:921][ 75]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.10.25-21.49.23:922][ 75]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.10.25-21.49.23:973][ 75]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.10.25-21.49.23:974][ 75]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.10.25-21.49.23:975][ 75]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.10.25-21.49.23:976][ 75]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.10.25-21.49.23:976][ 75]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.10.25-21.49.23:976][ 75]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.10.25-21.49.23:977][ 75]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.10.25-21.49.23:978][ 75]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.10.25-21.49.23:978][ 75]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.10.25-21.49.23:978][ 75]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.10.25-21.49.23:997][ 75]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.10.25-21.49.24:000][ 75]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.10.25-21.49.24:000][ 75]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.10.25-21.49.24:000][ 75]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.10.25-21.49.24:001][ 75]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.10.25-21.49.24:001][ 75]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.10.25-21.49.24:001][ 75]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.10.25-21.49.24:002][ 75]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.10.25-21.49.24:002][ 75]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.10.25-21.49.24:002][ 75]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.10.25-21.49.24:002][ 75]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.10.25-21.49.24:003][ 75]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.10.25-21.49.24:003][ 75]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.10.25-21.49.24:003][ 75]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.10.25-21.49.24:004][ 75]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.10.25-21.49.24:004][ 75]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.10.25-21.49.24:004][ 75]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.10.25-21.49.24:004][ 75]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.10.25-21.49.24:004][ 75]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.10.25-21.49.24:004][ 75]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.10.25-21.49.24:004][ 75]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.10.25-21.49.24:226][ 75]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.10.25-21.49.24:227][ 75]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.10.25-21.49.24:227][ 75]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.10.25-21.49.24:227][ 75]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.10.25-21.49.24:227][ 75]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.10.25-21.49.24:227][ 75]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.10.25-21.49.24:227][ 75]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.10.25-21.49.24:227][ 75]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.10.25-21.49.24:227][ 75]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.10.25-21.49.24:227][ 75]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.10.25-21.49.24:227][ 75]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.10.25-21.49.24:228][ 75]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.10.25-21.49.24:228][ 75]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.10.25-21.49.24:228][ 75]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.10.25-21.49.24:228][ 75]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.10.25-21.49.24:228][ 75]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.10.25-21.49.24:228][ 75]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.10.25-21.49.24:228][ 75]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.10.25-21.49.24:230][ 75]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.10.25-21.49.24:230][ 75]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.10.25-21.49.24:230][ 75]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2017.10.25-21.49.24:230][ 75]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2017.10.25-21.49.24:230][ 75]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2017.10.25-21.49.24:231][ 75]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2017.10.25-21.49.24:232][ 75]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2017.10.25-21.49.24:232][ 75]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2017.10.25-21.49.24:233][ 75]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2017.10.25-21.49.24:233][ 75]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2017.10.25-21.49.24:233][ 75]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2017.10.25-21.49.24:233][ 75]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2017.10.25-21.49.24:233][ 75]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2017.10.25-21.49.24:233][ 75]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2017.10.25-21.49.24:234][ 75]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2017.10.25-21.49.24:235][ 75]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2017.10.25-21.49.24:235][ 75]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2017.10.25-21.49.24:235][ 75]LogDirectoryWatcher: A directory notification for 'E:/Tiedostot/My documents/GitHub/Games-and-Play/MyProject/Plugins/VictoryPlugin/PluginPackaged/Binaries/Win64' was aborted.
+[2017.10.25-21.49.24:236][ 75]LogModuleManager: Shutting down and abandoning module VictoryBPLibrary (262)
+[2017.10.25-21.49.24:236][ 75]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.25-21.49.24:236][ 75]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.25-21.49.24:236][ 75]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.25-21.49.24:236][ 75]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.25-21.49.24:236][ 75]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.25-21.49.24:236][ 75]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.25-21.49.24:236][ 75]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.25-21.49.24:236][ 75]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.25-21.49.24:336][ 75]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.25-21.49.24:436][ 75]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.25-21.49.24:436][ 75]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.25-21.49.24:436][ 75]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.25-21.49.24:436][ 75]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.25-21.49.24:437][ 75]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.25-21.49.24:437][ 75]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.25-21.49.24:438][ 75]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.25-21.49.24:438][ 75]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.25-21.49.24:438][ 75]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.25-21.49.24:439][ 75]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.25-21.49.24:441][ 75]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.25-21.49.24:441][ 75]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.25-21.49.24:441][ 75]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.25-21.49.24:442][ 75]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.25-21.49.24:442][ 75]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.25-21.49.24:442][ 75]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.25-21.49.24:442][ 75]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.25-21.49.24:442][ 75]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.25-21.49.24:442][ 75]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.25-21.49.24:443][ 75]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.25-21.49.24:444][ 75]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.25-21.49.24:444][ 75]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.25-21.49.24:444][ 75]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.25-21.49.24:444][ 75]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.25-21.49.24:444][ 75]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.25-21.49.24:444][ 75]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.25-21.49.24:444][ 75]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.25-21.49.24:444][ 75]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.25-21.49.24:446][ 75]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.25-21.49.24:446][ 75]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.25-21.49.24:449][ 75]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.25-21.49.24:449][ 75]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.25-21.49.24:449][ 75]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.25-21.49.24:449][ 75]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.25-21.49.24:449][ 75]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.25-21.49.24:449][ 75]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.25-21.49.24:449][ 75]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.25-21.49.24:449][ 75]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.10.25-21.49.24:450][ 75]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.10.25-21.49.24:450][ 75]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.10.25-21.49.24:450][ 75]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.10.25-21.49.24:450][ 75]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.10.25-21.49.24:450][ 75]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.10.25-21.49.24:451][ 75]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.10.25-21.49.24:451][ 75]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
+[2017.10.25-21.49.24:451][ 75]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.25-21.49.24:452][ 75]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.25-21.49.24:544][ 75]LogDerivedDataCache: Shutdown
+[2017.10.25-21.49.24:544][ 75]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.25-21.49.24:545][ 75]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.25-21.49.24:545][ 75]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.25-21.49.24:546][ 75]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.25-21.49.24:546][ 75]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.25-21.49.24:546][ 75]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.25-21.49.24:547][ 75]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.25-21.49.24:547][ 75]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.25-21.49.24:547][ 75]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.25-21.49.24:547][ 75]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.25-21.49.24:547][ 75]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.25-21.49.24:547][ 75]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.25-21.49.24:547][ 75]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.25-21.49.24:547][ 75]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.25-21.49.24:547][ 75]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.25-21.49.24:547][ 75]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.25-21.49.24:548][ 75]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.25-21.49.24:549][ 75]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.25-21.49.24:549][ 75]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.25-21.49.24:549][ 75]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.25-21.49.24:549][ 75]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.25-21.49.24:549][ 75]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.25-21.49.24:549][ 75]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.25-21.49.24:549][ 75]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.25-21.49.24:549][ 75]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.25-21.49.24:550][ 75]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.25-21.49.24:552][ 75]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.25-21.49.24:553][ 75]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.25-21.49.24:553][ 75]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B86FD2FE3-4B7D-E5E4-B3A6-139B9CCBA08E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=60d72303451cf55fade1088e4c1c2cfa%7C6bc4c184209547c5bdbc989bbfa45809%7Cb21f9b9b-7386-453e-a753-81ab28ff1fc9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.25-21.49.24:571][ 75]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.25-21.49.24:579][ 75]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.25-21.49.24:580][ 75]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.25-21.49.24:580][ 75]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.25-21.49.24:580][ 75]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.25-21.49.24:580][ 75]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.25-21.49.24:580][ 75]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.25-21.49.24:580][ 75]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.25-21.49.24:583][ 75]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.25-21.49.24:583][ 75]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.25-21.49.24:583][ 75]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.25-21.49.24:583][ 75]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.25-21.49.24:583][ 75]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.25-21.49.24:583][ 75]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.25-21.49.24:583][ 75]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.25-21.49.24:583][ 75]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.25-21.49.24:583][ 75]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.25-21.49.24:584][ 75]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.25-21.49.24:584][ 75]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.25-21.49.24:587][ 75]LogExit: Exiting.
+[2017.10.25-21.49.24:625][ 75]Log file closed, 10/25/17 23:49:24
